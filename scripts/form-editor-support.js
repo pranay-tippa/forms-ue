@@ -62,6 +62,13 @@ function annotateFormFragment(fragmentFieldWrapper, fragmentDefinition) {
   }
 }
 
+function getPropertyModel(fd) {
+  if (!fd[':type'] || fd[':type'].startsWith('core/fd/components') || fd[':type'] === 'wizard') {
+    return fd.fieldType === 'image' || fd.fieldType === 'button' ? `form-${fd.fieldType}` : fd.fieldType;
+  }
+  return fd[':type'];
+}
+
 function annotateItems(items, formDefinition, formFieldMap) {
   for (let i = items.length - 1; i >= 0; i -= 1) {
     const fieldWrapper = items[i];
@@ -69,10 +76,17 @@ function annotateItems(items, formDefinition, formFieldMap) {
       const { id } = fieldWrapper.dataset;
       const fd = getFieldById(formDefinition, id, formFieldMap);
       if (fd && fd.properties) {
-        if (!fd.properties['fd:fragment']) {
+        if (fd.fieldType === 'plain-text') {
+          fieldWrapper.setAttribute('data-aue-type', 'richtext');
+          fieldWrapper.setAttribute('data-aue-behavior', 'component');
+          fieldWrapper.setAttribute('data-aue-resource', `urn:aemconnection:${fd.properties['fd:path']}`);
+          fieldWrapper.setAttribute('data-aue-model', getPropertyModel(fd));
+          fieldWrapper.setAttribute('data-aue-label', 'Text');
+          fieldWrapper.setAttribute('data-aue-prop', 'value');
+        } else if (!fd.properties['fd:fragment']) {
           fieldWrapper.setAttribute('data-aue-type', 'component');
           fieldWrapper.setAttribute('data-aue-resource', `urn:aemconnection:${fd.properties['fd:path']}`);
-          fieldWrapper.setAttribute('data-aue-model', fd.fieldType === 'image' || fd.fieldType === 'button' ? `form-${fd.fieldType}` : fd.fieldType);
+          fieldWrapper.setAttribute('data-aue-model', getPropertyModel(fd));
           fieldWrapper.setAttribute('data-aue-label', fd.label?.value || fd.name);
         }
       } else {
@@ -84,6 +98,7 @@ function annotateItems(items, formDefinition, formFieldMap) {
         } else {
           fieldWrapper.setAttribute('data-aue-type', 'container');
           fieldWrapper.setAttribute('data-aue-behavior', 'component');
+          fieldWrapper.setAttribute('data-aue-filter', 'form');
           annotateItems(fieldWrapper.childNodes, formDefinition, formFieldMap);
         }
       }
@@ -93,6 +108,10 @@ function annotateItems(items, formDefinition, formFieldMap) {
 
 export function annotateFormForEditing(formEl, formDefinition) {
   if (document.documentElement.classList.contains('adobe-ue-edit')) {
+    const block = formEl.closest('.block[data-aue-resource]');
+    if (block) {
+      block.setAttribute('data-aue-filter', 'form');
+    }
     formEl.classList.add('edit-mode');
   }
   const formFieldMap = {};
@@ -198,12 +217,18 @@ async function applyChanges(event) {
         const jsonContent = codeEl?.textContent;
         if (jsonContent) {
           const formDef = decode(jsonContent);
+          let panelLabel;
           if (element.classList.contains('panel-wrapper')) {
             element = element.parentNode;
+            panelLabel = element.querySelector('legend');
           }
           const parent = element.closest('.panel-wrapper') || element.closest('form') || element.querySelector('form');
           const parentDef = getFieldById(formDef, parent.dataset.id, {});
-          parent.replaceChildren();
+          if (parent.classList.contains('panel-wrapper') && panelLabel) {
+            parent.replaceChildren(panelLabel);
+          } else {
+            parent.replaceChildren();
+          }
           await generateFormRendition(parentDef, parent, getItems);
           annotateItems(parent.childNodes, formDef, {});
           return true;
