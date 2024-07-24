@@ -65,10 +65,5 @@ export default async function componentDecorator(element, fd, container) {
     await loadComponent(type, element, fd, container);
   }
 
-  if (fieldType === 'range') {
-    const module = await import('./components/range.js');
-    return module.default;
-  }
-
   return null;
 }
