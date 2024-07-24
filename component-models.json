@@ -45,38 +45,6 @@
         ]
     },
     {
-        "id": "rating",
-        "fields": [
-            {
-                "component": "container",
-                "name": "basic",
-                "label": "Basic",
-                "collapsible": false,
-                "fields": [
-                    {
-                        "component": "text",
-                        "name": "name",
-                        "label": "Name",
-                        "valueType": "string",
-                        "required": true
-                    },
-                    {
-                        "component": "text",
-                        "name": "jcr:title",
-                        "label": "Title",
-                        "valueType": "string"
-                    },
-                    {
-                        "component": "boolean",
-                        "name": "hideTitle",
-                        "label": "Hide title",
-                        "valueType": "boolean"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id": "image",
         "fields": [
             {
