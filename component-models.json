@@ -3,7 +3,7 @@
         "id": "title",
         "fields": [
             {
-                "component": "text",
+        	"component": "text",
                 "valueType": "string",
                 "name": "jcr:title",
                 "value": "",
@@ -45,38 +45,6 @@
         ]
     },
     {
-        "id": "rating",
-        "fields": [
-            {
-                "component": "container",
-                "name": "basic",
-                "label": "Basic",
-                "collapsible": false,
-                "fields": [
-                    {
-                        "component": "text",
-                        "name": "name",
-                        "label": "Name",
-                        "valueType": "string",
-                        "required": true
-                    },
-                    {
-                        "component": "text",
-                        "name": "jcr:title",
-                        "label": "Title",
-                        "valueType": "string"
-                    },
-                    {
-                        "component": "boolean",
-                        "name": "hideTitle",
-                        "label": "Hide title",
-                        "valueType": "boolean"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id": "image",
         "fields": [
             {
@@ -87,7 +55,7 @@
                 "multi": false
             },
             {
-                "component": "text",
+        	"component": "text",
                 "valueType": "string",
                 "name": "alt",
                 "value": "Default alt",
@@ -96,53 +64,53 @@
         ]
     },
     {
-        "id": "button",
-        "fields": [
-            {
-                "component": "text",
-                "valueType": "string",
-                "name": "href",
-                "value": "",
-                "label": "Link"
-            },
-            {
-                "component": "text",
-                "valueType": "string",
-                "name": "text",
-                "value": "",
-                "label": "Text"
-            },
-            {
-                "component": "text",
-                "valueType": "string",
-                "name": "title",
-                "value": "",
-                "label": "Title"
-            },
-            {
-                "component": "select",
-                "name": "type",
-                "value": "",
-                "label": "Type",
-                "valueType": "string",
-                "options": [
-                    {
-                        "name": "default",
-                        "value": ""
-                    },
-                    {
-                        "name": "primary",
-                        "value": "primary"
-                    },
-                    {
-                        "name": "secondary",
-                        "value": "secondary"
-                    }
-                ]
-            }
+    "id": "button",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "href",
+        "value": "",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text",
+        "value": "",
+        "label": "Text"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "value": "",
+        "label": "Title"
+      },
+      {
+        "component": "select",
+        "name": "type",
+        "value": "",
+        "label": "Type",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "default",
+            "value": ""
+          },
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
         ]
-    },
-    {
+      }
+    ]
+  },
+  {
         "id": "columns",
         "fields": [
             {
