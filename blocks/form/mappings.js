@@ -26,7 +26,7 @@ async function loadComponent(componentName, element, fd, container) {
           try {
             const mod = await import(
               `${window.hlx.codeBasePath}/blocks/form/components/${componentName}/${componentName}.js`
-              );
+            );
             if (mod.default) {
               await mod.default(element, fd, container);
             }
