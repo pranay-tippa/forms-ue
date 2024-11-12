@@ -1,0 +1,706 @@
+{
+  "cookies": [
+    {
+      "name": "oauth-configid",
+      "value": "ims",
+      "domain": "author-p133911-e1313554.adobeaemcloud.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "relay",
+      "value": "916c6957-a35e-4230-8ab6-035d79802d12",
+      "domain": "ims-na1.adobelogin.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ftrset",
+      "value": "690",
+      "domain": "ims-na1.adobelogin.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "relay",
+      "value": "916c6957-a35e-4230-8ab6-035d79802d12",
+      "domain": "auth.services.adobe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "demdex",
+      "value": "63291067573544745634569362339009176627",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1745056013.691809,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AMCVS_9E1005A551ED61CA0A490D45%40AdobeOrg",
+      "value": "1",
+      "domain": ".adobe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_ecid",
+      "value": "MCMID%7C63133166585265010694549000435365892285",
+      "domain": ".adobe.com",
+      "path": "/",
+      "expires": 1764064029.155073,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_cc",
+      "value": "true",
+      "domain": ".adobe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMCV_9E1005A551ED61CA0A490D45%40AdobeOrg",
+      "value": "1176715910%7CMCMID%7C63133166585265010694549000435365892285%7CMCAAMLH-1730108813%7C12%7CMCAAMB-1730108813%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1729511214s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.4.0",
+      "domain": ".adobe.com",
+      "path": "/",
+      "expires": 1764064014.016257,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "relay",
+      "value": "916c6957-a35e-4230-8ab6-035d79802d12",
+      "domain": "federatedid-na1.services.adobe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ftrset",
+      "value": "690",
+      "domain": "federatedid-na1.services.adobe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "esctx-IfyXVRvUyk8",
+      "value": "AQABCQEAAADW6jl31mB3T7ugrWTT8pFeweeb5Na41-NhMclepfqh2j2bjpXZHAyAuWcrrOBFVEVfmxAX2AySJOS2jP1isx9rBLSX3qZLbR0EK8ICbY3T6ujEp47GhXOK5wM0kVBecPGbJ6WmG6UtQIO2jAp241Z5o-NRrE2E23v-x-6HuASNMCAA",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": 1729505515.988161,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "x-ms-gateway-slice",
+      "value": "estsfd",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "stsservicecookie",
+      "value": "estsfd",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AADSSO",
+      "value": "NA|NoExtension",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SSOCOOKIEPULLED",
+      "value": "1",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": 1729504076,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "buid",
+      "value": "0.AS4AntAvJIITaESgmCtOeJ1uLCsnumqD481Ejto0xm39lUa5AAA.AQABGgEAAADW6jl31mB3T7ugrWTT8pFe-oVghGE5wN5ojQu98jgvOQvGWa0efOn5q_RFDD3SoMGxe_hIYv565UNk9tsILmxycEn2WKLPn6JKGL2bY1bpn8dccQVPNc8C1CVeGEAoO0kgAA",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": 1732096016.975468,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "esctx",
+      "value": "PAQABBwEAAADW6jl31mB3T7ugrWTT8pFerLDNcuuNV7N5hhBu6HzzGWL3-sMhUGJWCSyBiKHnWalxR6TWIWJ3vQn2tH3S_IvJEe22hj4eGQ2M1Gym9HXxr_ZlIUPPyN-K5xegtBogfEdXoS5rOcWFRYV9LuOPgQ_QLDWAvb1ps-BkMvMoas5LDnUwwlUnaF2vefKCcl12qmkgAA",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "esctx-jFJ8FQH1FQ",
+      "value": "AQABCQEAAADW6jl31mB3T7ugrWTT8pFeBRj1nHUaCYf1Qq0WEBopK4P8aZyuFIBgesUj-C5N1PlIHVDdh-IGHDAdmQm3dXfJybeugQBUBmiaON1U9GfbJ5b3pflyDe9QBaOSC_Kh-Xsx54J3Qp_Wz0d2gLp1mkurnEbgmSn1lyGz0LJ5F7bsYiAA",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": 1729505516.975885,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "fpc",
+      "value": "At9Kt2W47whOn_nSu1wdYI7kNfCfAQAAABAaqN4OAAAA",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": 1732096020.295278,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MicrosoftApplicationsTelemetryDeviceId",
+      "value": "3c2e8815-e022-44eb-8bb0-e9c8671fe7b8",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": 1761040017.508553,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "brcap",
+      "value": "0",
+      "domain": ".login.microsoftonline.com",
+      "path": "/",
+      "expires": 1763200017,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ai_session",
+      "value": "9ijRD4aq4wsMKfwBEtoCX+|1729504018214|1729504018214",
+      "domain": "login.microsoftonline.com",
+      "path": "/",
+      "expires": 1729505818,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MSPRequ",
+      "value": "id=N&lt=1729504019&co=3",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uaid",
+      "value": "19d417f13af44d8ebc10166e247a4982",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MSCC",
+      "value": "223.185.44.176-IN",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": 1763200020.710011,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MicrosoftApplicationsTelemetryDeviceId",
+      "value": "71a80708-8010-4a50-84a2-0820ec4dcebd",
+      "domain": "login.live.com",
+      "path": "/",
+      "expires": 1761040021.979258,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MC1",
+      "value": "GUID=f3e47cdcbac04071a5ced333c0f50f13&HASH=f3e4&LV=202410&V=4&LU=1729504020396",
+      "domain": ".microsoft.com",
+      "path": "/",
+      "expires": 1761040021.830776,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MS0",
+      "value": "4f8c20fd473d4acfb7cba2a2fbe67d58",
+      "domain": ".microsoft.com",
+      "path": "/",
+      "expires": 1729505821.830808,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "PPLState",
+      "value": "1",
+      "domain": ".live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ai_session",
+      "value": "EvXQJQp7hw2mgNEDdkDUc8|1729504020764|1729504022086",
+      "domain": "login.live.com",
+      "path": "/",
+      "expires": 1729505822,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MSPOK",
+      "value": "$uuid-4334e7ed-cbba-4154-a79b-ea3bd81a88f3",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MSPPre",
+      "value": "ptippa.test%40outlook.com%7c9a63530e3cff4bbf%7c%7c",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MSPCID",
+      "value": "9a63530e3cff4bbf",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MSPAuth",
+      "value": "Disabled",
+      "domain": ".live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MSPProf",
+      "value": "Disabled",
+      "domain": ".live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NAP",
+      "value": "V=1.9&E=1e09&C=cikqg1v8HajTYdSTKlz1Nuup8vL0GFhO3gJERl2LMIOdiIK6vDFRaw&W=1",
+      "domain": ".live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANON",
+      "value": "A=BF3FACD021C4D7A8DFFD0CCAFFFFFFFF&E=1e63&W=1",
+      "domain": ".live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "WLSSC",
+      "value": "EgAvAgMAAAAMgAAAogABE8EJNCPQ8RbAp+wpWrpzlHdybsIB1gqR0gGUOvAa6PP8nhVqthyIItHX4yHKQ7lfSmfXzZNsz0TJxvRoVqLLGBzf2O2Ylhx/GcuTUrmdGINNqP+8WTbH9bvTmZ6IZ6BQNPL5xgfRtv0rzBojQiltCwsVQTmT2xFe0CAUw2U4KyWFvJDWB/BVj+VeiYW9RtIHrdsrR1p9BIW/QrdhYYTp6pukmb6EnWi5bj3X7h6SpkcXHgFyK5T4NTHsYWutaaBUmuyBSWkv3Tterbdrwe4Klmu4e+8HK7ObJOoIw+W2P6IPCt106L6F30Y/dAUcSs6gjRtYqgrHJm1e8DsYE+Wnjh4BfgAeAf6/AwAHolWDFiMWZxUjFmcQJwAAChCggAAYAHB0aXBwYS50ZXN0QG91dGxvb2suY29tAF8AACRwdGlwcGEudGVzdCVvdXRsb29rLmNvbUBwYXNzcG9ydC5jb20AAAAoSU4AAAAAAAAICQIAAIowVUAABkMABUFkb2JlAAhlZHMtdGVzdAAAAAAAAAAAAAAAAAAAAAAAADz/S7+aY1MOAAAWIxZnFcqMZwAAAAAAAAAAAAAAAA8AMjIzLjE4NS40NC4xNzYABQEAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAEUjb0Yhq/rJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAA==",
+      "domain": ".live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "JSH",
+      "value": "3$ptippa.test%40outlook.com$Adobe$eds-test$$2$0$0$5075314087718202145$0",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Host-MSAAUTH",
+      "value": "11-M.C562_BL2.0.U.CrTHgwfEm8RHLLYFJ5FpCzPPlCajj5hoteaN*6Qijg80VSNHvmz!ivG2GfAw695S2DCq7Zm8Iagm!qfgp4zKnsfMP0YjV4MVw6F5p3BpaUKJsDSk3o!BfK!5mPhkjRUFt4fSIQ58R18E6n4kNaFcr*HloEglcg80qOFYxxywayZCg20bVRm2mcHqXQE3HaUUf4r64*GpM*luTuXDROonhmU1p2nNNez583K2k7QoEANBzoam8aVPP59QMpXgzm5XAyM5*5Kwx7ifeV8bIP4qUspj9W8cfK2zfIN!V5MJcoaC",
+      "domain": "login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SDIDC",
+      "value": "ClXgHneGj9J76Um2RzhyC0wvwpZW1SD84AmeuKGP6AMPV3EXc2QAvogkwyx!T2mXliLSPtiGAhQhvqZkQWeHq7XieEKjmfAPxC7OBO3PPYHE1cGzdYfSY!L8Y6HA!UdY5w$$",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": 1763200022.967987,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OParams",
+      "value": "11O.DkyUIa5VFDyQvDwQ7nqT9OkjPXD0WCOtSQk7w2n4tFtgGfabjlNd7Zmw6QTTmxic!*acB3eMxKHACMuF7*RS3wjyVuk8wxfu9mR1z4bU1qijjXmFwOPb4kMsKyAc7fd!EjAacQoKbcmHjzQY6Eu0E9TSKf3Smp3GZYzHfwe47F2jD5qNsnEotiFQU!ZmaiBTXt!M!oukYmpMCLVIyX9rfCN2UalrLRmL8bfcZUbP2aMfUihRkcLRY7xCgZr1bBD0K*CsBgZRH7G3dVzrooOpGXauh4l5B0VmBI1QTmBGUHBiikggmXJcRqussCFk49AWa!io8hMWmb9UsfPfcePln6PyG8wY0HQLNYkta2UNqTlXJaMFevt3Qh*ewe1bI4!To0jM4DRj5KUcgomd5tZi3DicI*xefZANErV1L!vTI15IY9vmZOG4n2fNw9GEor*JrSLjRg0TXF74tgiSlRe4bWRWYtT9PNrv8*HlMOmebjE!da5PRyE9M*Hm0JDsfsaLQUeN9fkKphv9i0moQXqQYHpFYEcRcn6tg11cKeiI*4**1eh1jU0bZNwhf4y6FD*kNFauLcqFOBQOP1y2Ow0cgFqkQneflNHoO6XF3I4kdhQFNQPd9lZXaZ1qgSqLNXNyQtehXi!2YwX2l!mk5PxQA63gqBLNBx6krYQRIDNFGh2u4tgnjSXQ7HlBLOjuMTpcDC5dfp1jeu1uH!l4BS4EfSZZPUbVe9BaZxR8KJJ3XpsKC2gI7664g!L8ZSA9mv1EGoYk1YPRfM4tngo7UDm!iLOehfw0QjMzp5SyMfW6mJpJPU11Uzo70Auwk9daYqRHipNykiA2MFXODcpqpVMZkaNQyruNsqlbPkOQOG3jGNBgugYeP0FM5!OszFseSt598vj2Xs!Qfp3LNK37gO2*NrArGvutD7eZREeKAzkfcd41mlwM8tnihcSCkhxzoiIgcXc0LyLmuZE4b9TsIiFLRg*RzQ34xnHfcaPZboqc68iLRr4SBxN5R!IhHulP86o8JqmStC45UsvU2WL1NLPMeQfINkVJYhfAwYRQHkB7pAiuJmmMgxoxd93ddZAkzXyZxFpRFmy7vE!1n*1hu2XsEbs$",
+      "domain": ".login.live.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "gpv",
+      "value": "Account:IMS:Process:Complete",
+      "domain": ".adobe.com",
+      "path": "/",
+      "expires": 1729505829,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "relay",
+      "value": "916c6957-a35e-4230-8ab6-035d79802d12",
+      "domain": "adobeid-na1.services.adobe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ftrset",
+      "value": "690",
+      "domain": "adobeid-na1.services.adobe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "locale",
+      "value": "en_US",
+      "domain": "adobeid-na1.services.adobe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "relay",
+      "value": "916c6957-a35e-4230-8ab6-035d79802d12",
+      "domain": "sso.behance.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ftrset",
+      "value": "266",
+      "domain": "sso.behance.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "filter-profile-map",
+      "value": "Abq96qOn4Pn6w5-y7Qrz68mGxMlHvITNbgZfkIE-imzJNmG0ynXFdOsUXkuHFf6cfOysSoHwvh-yJTUD61O4h_zA3cVCCbuwM6AY1VL--nNKRNVP_5s2gRFn32nd525uUFMjRDUSVxAuPUUr0NcKxUouPxNvSx8hbg9Kz_x3tq3VLS61b9LXQ9aswMo0NO41h62ZaJ1vYDiHbd4JELYgoKh9z95LKl2vWIFbmIZzrEFPBSXqOcf7JJN2VGrCmnRfxNk7fdENP6GF8K-SB5R5ehOY6MprDkBjZtsD8P-zPHIIIaxCdxx1TXR8jvdL",
+      "domain": ".behance.net",
+      "path": "/",
+      "expires": 1761040030.49156,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bims_sid",
+      "value": "AZ3KOuO1TGiukI11bu2WNYSEYwbdHWx5lxVLXrOhh2tKP69TxX32cu1cZk_wIE-4FqwAJl6xt3v7FO5TOFxZUG106axdiF_iW9NmeheWbXaz16VflbrjabDPO3VL82tL2vXwLbQD9R3s0IaX_RmTBLpQTTERLWJK65pBdjXwixThqctuxeTeJlRp5EtznGCB4JqTf8JiRGoUafVtNOlhGSuWKLOqLAxTgpyLBpqcT946wGB4kje0hDq0tb0W1sEfg2GNzw6duWHMlgjUzKMOqkL68kJL_ae7djYsWrJLPF1iCbiwnSp7YXwxZCUWYmUZMpWoeeoyxWZH-pEdxJp-JWxfZH3BGaI30V4AO1LArjXYgSh3cc-GIM3XbCOEbJ5Z9e6ELxQ336glVGqqUi4t2SNLvqGqlTr7LxAjNdtIdmnQbQtTKl-tl2AQ3lLX2VPvqTHV7iUUrSJYnbfkHjL0xgCnuKDsQlwLmL8Kefq-cJuOnlGQWFTts3izr0h1C_SxGutsqblTIKYwe1YUjj18S8pLuAMcm-H0CBcKovHqCesLEENu2Wx1FHimimES6zm_-m1zMInkgLMF8bVkW9BEyKrpybIx699oQzQdJVmCZ2FVbaSumwZBp8g3bM55bXzL7_7PK5wIsxCmKKxIoxXNX85yBcDt6P1SFLky5hcJJ7lTgHdXK6xmdE7vdm-Q5CBzDuWHQ13PtlN7C-d0AV7oR-pLSXZNeUDE9xY7oC86kyb_IgjaDW83S5TvfcoUgfijKPrI36imDQ7292d7B0QgG8ElVkO0PPK_MFiAHzc",
+      "domain": ".sso.behance.net",
+      "path": "/",
+      "expires": 1761060982.491601,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sso_sid",
+      "value": "AXGEdgTuuolGF2bqLhcV75IveoYJbF6-RIXFGFAaEZSh_lHjnLbjIS6Fbxrt0JSY7DBjRxaxeFAhEdzIMlO5pC2MvoH6SvRPc99TssAnUQw6lBACM5EpEyhnxUjBzyHfV4IZa6_iSzAOLRJQQwrOuwv7F7fGtq-wRER6e7fxVr9Ibw_ehlW831wocFt4S1Zqzuw2lPow94BFJkud30zV1wNH5Ig9_3DC5bZSwA42faTDspWYE1a4rHMQAFpzIHkKGAcCYWJA3OGHbP_V3YINyJxCRbyeYLrWTxaOjmitAWIU8MgGJpHviQIkZLD0zDEu3Bjj6C2yHxSNjk5Qv_oQBu7Skr141cnWRr87qj2OHFvdQKTjFSgETrLNjM8SoHfQCRxgjnO9EhIYsMxGU2cAERm9JBHEwPib-Q-HH_JQDTVz51t8nLmELdvFsphtKbEGwD8suf-LFg3iFm9O6argOUMzTpwa1bngRR544oe_zdNypyprQF8bitl2Q4x09xeLoGMIA7HozyVnXMmQ0LvUmTfXihDtnuCH7cOsBAmEDNGtwMtVPKDvqqe0oYqn5A_agMAJtKtBOwRJq5Slai535SImC3wI4BcavvOt36BjDkpz_xVyguGdjCPz4vDHowVDbxECG-u6T0Q82WYu5xkSQJgpvDhgzFgqM8E2NLiyn-cYqRsSK77bmKOPQK29ulVcTpVs3oyXBkmVs3iQfcGzhIMGrPhrp34hIzgiJylt1LGzGFSD2V4Y2DgJUQPYhDxtoUrZSmd5Cc5qn1JIGBcbiKoc9A3WAgXHFY3XKzM",
+      "domain": ".behance.net",
+      "path": "/",
+      "expires": 1761060982.49164,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "login-token",
+      "value": "login%3aeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwdGlwcGErdGVzdEBhZG9iZXRlc3QuY29tIiwiZXhwIjoxNzI5NTQ3MjMxLCJpYXQiOjE3Mjk1MDQwMzEsInNjb3BlIjoibG9naW4ifQ.NNcdt5wpbbUjd0PEmn7LJ2ZHtwDHGKr2SoBWDL4nMPA%3acrx.default",
+      "domain": "author-p133911-e1313554.adobeaemcloud.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "web-p133911-e1313554-d0273640-f29a-4654-9da8-767e940b9f7d",
+      "value": "\"{87f17817a4af9c57ddfd9e28447144572ad8f933b686d3ddfb650741e6725d9f3ec7fce45dbd33ab118778c6bf10c8943da9d343039f51862c7b15d18ecb51a2d265a04c9837d86b50d99323ae1529ccda33352ee5224be35c4539d395daf5311ee396ed80df75a8903b896413cc8ae5d168599be567c2056efe32e69bd84e537480b31eb1a68b1b9ae18824b1c7663f9875b94fb4ea956cca9d64d82efeaf5a}\"",
+      "domain": "author-p133911-e1313554.adobeaemcloud.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "oauth-authid",
+      "value": "ims",
+      "domain": "author-p133911-e1313554.adobeaemcloud.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "affinity",
+      "value": "c62350a49af38da9",
+      "domain": "author-p133911-e1313554.adobeaemcloud.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cq-authoring-mode",
+      "value": "TOUCH",
+      "domain": "author-p133911-e1313554.adobeaemcloud.com",
+      "path": "/",
+      "expires": 1730108832.535184,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "s_ppv",
+      "value": "[%22auth.services.adobe.com/en_US/deeplink.html%22%2C100%2C0%2C720%2C1280%2C720%2C1280%2C720%2C1%2C%22P%22]",
+      "domain": ".adobe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMCV_8F99160E571FC0427F000101%40AdobeOrg",
+      "value": "-1124106680%7CMCMID%7C43759416108378282335649077943239936134%7CMCAID%7CNONE%7CvVersion%7C5.2.0",
+      "domain": ".author-p133911-e1313554.adobeaemcloud.com",
+      "path": "/",
+      "expires": 1764064032.92704,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "e89803abf5c8c2a8dd8843c9798d0ff2ec7750ed",
+      "value": "\"fa6b07b76f0e3fed\"",
+      "domain": "author-p133911-e1313554.adobeaemcloud.com",
+      "path": "/",
+      "expires": 1729504093.665024,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "filter-profile-map",
+      "value": "AUSVTtXJa3AnSjoUtw4RDTeY1KYeqtDEZmqG2c-L5n3U8NQGPCgNZICN8PvSaWRTe3pekUIaCMmgcAjQ33R9yeUVeDDu-SrdhaF9hOgh9ntV8WpDklbK21ScPuFWD84WfexUQows8xXWJ97QemlwnF3xBTJYh3psR8cZE_HqWZq0VVDF_kpI8WDSLiEXXR2NvyBgZPMGm_HWhjB_EpXo7fT-OugDyr5GxJU88TGtJNk1s2n87GTeYhgMrUufuRdFMIpBr_FtG6aPnnFdlBJe042BvwHICtENybSG3Zbnc5-I-qI5OFbI7ar-UBBAOKxSXJIveA8XZUzM0IuTcFDwEm3rRQr1QlVNnRsq-nBKjUjQYyF-77VYKb9weU1ysZb62-20YIHLM2UNYKJT2fBoSUN1peOT9iLHqRckR8Y",
+      "domain": ".services.adobe.com",
+      "path": "/",
+      "expires": 1761040035.20745,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "fg",
+      "value": "Y4KMXD52HPP7MHWKFOQ52HAAI4======",
+      "domain": ".adobe.com",
+      "path": "/",
+      "expires": 1729590435.207521,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ims_sid",
+      "value": "AUfoBrFzFO2oIlVVTZgvWZ3VxnN1xySuLh9YIKVI4_8wLjdmupmbrAzFu9RoQKGOS1tRL8VV-Mq4N29_AB6L4uqJgb4NrbRuN70AnPSifhQOK5fboFpVQxaZqdHGH3oyljsNTWlMXDIgjGi8tF8NT08HeNx7K8n62y0fqrffRQuRW19k8hX4bSzCdsyAEVIvqYiNQbcjg28920BGj_jGDO7Etye6OZq54AhSvGgYF2lt2XE57mqGw4XpXv2lNEAM8-gOr-XM5gJhlJlEmW0HhgJ79V7Ykay-NgfVJGEyJWBF79UIw7Tbgh1RngwTouGiGl_0XDaxW5-TAzb4qtujbVgakEgfizeK9UlFoUBNNER0GGRL_EnMeM_YNMY0XgI5J2C1u4G6gDYQPQrmNwwkNMt9AqVNQ-lnU5OnjYqOeXgSlH-BvfxNxmTGj7BHQSL8gQbBm9ZoMkLvxVRC6I7gh4TZ3SdJTQ7G63PG3p98Yf0opVIiH8AaYKWitEYKFfkb8XhqFB4n1NAACQ5452Cj4Pd6-DyNb4kYvrMjGOfVjuSGp1fsXhxsFDrWfXtTY2tY8JYO3HkcpGAm7R09WHT4gOPnOZYiMgsIujqPSRmHlBx4IgG-mqxbNyW7oRQPdtLvQwv5lWIdzvMZwHlpq27NaYiH1804iE-g6zMogiVBpfqbUhoRQcHfzj1HaiSwkgwVs-uqxj78mMg_NxyOhm4GbV_-rEwbCIn3iTNxlgewZ__AW_qXNEhiukaJptKd1rKxxHYZ2r2Wq8uk2LofUwbmGhB4ZVClMPo",
+      "domain": ".services.adobe.com",
+      "path": "/",
+      "expires": 1761060987.207555,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "aux_sid",
+      "value": "AQ6lCoR4MS18BW5KUV2xWDPoL6AmfJ2LRP5AZZM0c1svTk_CtN5TzSTs5GevRF3vUx-w3whj_ySS-qSw3HmXgYIcdW6UCYTHeW4cmTD_4WnvuLaOaAUzzbyIdvFD7qroUf1RWwMpawd6UyK6oH1t9V0vcxzkiQ77TsRUnzfEmTWQXwDWP7Ezszc-wcu412q77QAhyaaaM_m8UcY1Bd7KPGIm2GZNSSjnaTgm0LSyFSUNgZCNQ4gJXDrYsjYIbGLVwIsck_sFnkfq1k8LNIYc4qsOmdBFOYXp8zRUTQZtti_h0-8cxk79ijlgNkRgi6nRxb8yG1O8goY44YxvjU4znWQZjZUwUN-AMbornBYl3H0Mje8sFp5J6YCqTr2dpY3fW9dLzscZlBth_MAK-v5ddPucKA-l2qyLnCCjwOXObqUp-2s-jgZeUoTY6GO6IQRoPKAFoBb9Ld2AgXlMDCF6IMvbaZkPbYoasl0yp7P0VfMLzdtdkspTsLSg_iuCn9FXTA0rDB_UTbWMEyTCZdThB3vO28FA-CBpC26RKMOM33N1K1g0xG1jVz6o90E2YeN2eVsnew2WMViL6G6NDdICz_ptoxmPGkVpi3XO4UjByS6f7OVaHq0wk27yWyFTyKc-mi1zkLqhHkgqHoksnqxuJFc3vaOuFRQhGzsh3dOgdKESwfj2ZLpsPU4Lo4JavcDYmn7Yh56ugvgWPgC8iJRNEe7zLCXTTN67W8o6bTdiF8IqFtce6DtTYdKA2cQdyV1NnuNufsCFTuIjDywWZwKXfj2e7-CuIIo",
+      "domain": ".adobe.com",
+      "path": "/",
+      "expires": 1761060987.207618,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "s_ims",
+      "value": "https://ims-na1.adobelogin.com/ims/session/v1/YTFkOGNhNzgtZGE2ZC00NDRmLWJlMmItZTgzZGI1ZmYwNDE3LS1EMTZCMUQ0QjY2OUUyNEZFMEE0OTVFNEJAYjg2MTc2ODQ2MmRjY2M5NzQ5NWU1Zi5l",
+      "domain": ".adobe.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://author-p133911-e1313554.adobeaemcloud.com",
+      "localStorage": [
+        {
+          "name": "shellUserConsent",
+          "value": "N|{\"adbepersonalizedpromotions\":true,\"adbepersonalizedrecommendations\":true,\"communitiesPromotions\":true,\"communitiesRecommendations\":true,\"inProductPromotions\":true,\"inProductRecommendations\":true,\"adobeUsageDataCollection\":true,\"gainsightUsageDataCollection\":true,\"pendoUsageDataCollection\":true,\"druidUsageDataCollection\":true}"
+        },
+        {
+          "name": "adobeMetrics.deviceId",
+          "value": "73ac3431-8f91-11ef-9a0e-cd297c46fa9d"
+        },
+        {
+          "name": "unifiedShellSession",
+          "value": "N|{\"3720256924\":{\"userOrgs\":[{\"aemInstances\":null,\"aepRegion\":\"AUS5\",\"imsOrgId\":\"5A4521B65E37CAFC0A495FA6@AdobeOrg\",\"hasAEP\":true,\"tenantId\":\"formsinternal01\",\"orgName\":\"AEM Forms Internal01\"}],\"userType\":\"eoa\"},\"shellOrgAccountMap\":{\"5A4521B65E37CAFC0A495FA6@AdobeOrg\":\"3720256924\"},\"userOrgs\":[{\"aemInstances\":null,\"aepRegion\":\"AUS5\",\"imsOrgId\":\"5A4521B65E37CAFC0A495FA6@AdobeOrg\",\"hasAEP\":true,\"tenantId\":\"formsinternal01\",\"orgName\":\"AEM Forms Internal01\"}],\"session\":\"1729504029696_f9e06c9d-d42a-43ca-9865-9dd29cafafc5_uw2\",\"activeOrg\":\"5A4521B65E37CAFC0A495FA6@AdobeOrg\",\"aemInstances\":{\"instances\":{\"5A4521B65E37CAFC0A495FA6@AdobeOrg\":[{\"domain\":\"author-p133911-e1313536.adobeaemcloud.com\",\"environment\":\"prod\",\"path\":\"/content/dam\",\"rootTemplate\":\"https://{repositoryId}\",\"title\":\"jalagari ( EDS ) prod\",\"type\":\"storage\"},{\"domain\":\"author-p133911-e1313554.adobeaemcloud.com\",\"environment\":\"stage\",\"path\":\"/content/dam\",\"rootTemplate\":\"https://{repositoryId}\",\"title\":\"jalagari ( EDS ) stage\",\"type\":\"storage\"}]},\"timestamp\":1729504037969},\"featureFlags\":{\"launchdarkly/5A4521B65E37CAFC0A495FA6@AdobeOrg\":{\"unified-shell\":{\"BusinessRules_Daily\":\"false\",\"GenStudio\":\"false\",\"a-new-flag\":\"false\",\"acc-enabled\":\"false\",\"adobemixmodeler-enabled\":\"false\",\"advertising-ssc-enabled\":\"false\",\"aem-exp-success-studio-enabled\":\"false\",\"aem-headless-cf\":\"true\",\"aem-on-prem-enabled\":\"false\",\"aem-pages-enabled\":\"true\",\"aem-service-worker\":\"false\",\"aep-dashboards-v-2-enabled\":\"true\",\"aep-datamanagement-federated-data\":\"false\",\"aep-exl-resources-widget-enabled\":\"false\",\"aep-federated-data\":\"false\",\"aep-home-customization-enabled\":\"false\",\"aep-license-usage-v-2-enabled\":\"true\",\"aep-midnight-home-enabled\":\"false\",\"aep-offers-components-v-2-enabled\":\"true\",\"aep-offers-v-2-enabled\":\"true\",\"aep-pueblo-enabled\":\"false\",\"aep-queries-v-2-enabled\":\"false\",\"aep-role-poc\":\"false\",\"aep-schemas-v-2-enabled\":\"false\",\"aep-spa-enabled\":\"true\",\"aep-ui-identity-v2-enabled\":\"false\",\"aep-work-hub-enabled\":\"true\",\"ai-chat-history-enabled\":\"false\",\"ajo-enabled\":\"true\",\"ajo-exl-resources-widget-enabled\":\"false\",\"ajo-frequency-rules-enabled\":\"false\",\"ajo-license-usage-v2-enabled\":\"true\",\"amplify-enabled\":\"false\",\"analytics-acceleration\":\"true\",\"analytics-enabled-urls\":\"true\",\"analytics-roles-dialog-enabled\":\"false\",\"analytics-tab-session\":\"true\",\"approvals-workflow\":\"false\",\"assets-essentials-enabled\":\"false\",\"assets-essentials-in-shell\":\"true\",\"assurance-capability-enabled\":\"false\",\"assurance-root-enabled\":\"false\",\"beta-use-cases-enabled\":\"false\",\"bizible-enabled\":\"false\",\"bizible-internal-enabled\":\"true\",\"business-rule-journey-enabled\":\"false\",\"business-rules-beta-enabled\":\"false\",\"business-rules-channels-enabled\":\"true\",\"cja-roles-dialog-enabled\":\"true\",\"cjm-enabled\":\"false\",\"cjm-enabled-alpha\":\"ALL\",\"cjm-global-search-enabled\":\"true\",\"cjm-performance-metrics-enabled\":\"false\",\"cjm-settings-enabled\":\"false\",\"cjm.ui.destination\":\"false\",\"cloud-manager-spa-enabled\":\"true\",\"cmk-aws-enabled\":\"false\",\"cmk-enabled\":\"true\",\"co-pilot-review-enabled\":\"false\",\"commerce-enabled\":\"false\",\"composed-app-page-titles\":\"false\",\"content-hub-enabled\":\"false\",\"core-assets-enabled\":\"true\",\"core-assets-v2\":\"false\",\"core-services-enabled\":\"false\",\"data-collection-enabled\":\"false\",\"demo-quiet-mode\":\"false\",\"disable-x-twitter-for-help-center\":\"false\",\"dynamic-chat-enabled\":\"false\",\"enable-ajo-alerts\":\"false\",\"enable-ajob2b-recents\":\"true\",\"enable-coveo-for-unified-help-search\":\"true\",\"enable-data-collection-in-nav\":\"true\",\"enable-experiment-validator\":\"false\",\"enable-journeys-next\":\"false\",\"enable-roles-modal\":\"true\",\"enable-triggers-subservice\":\"true\",\"exc-home-page_controlrollout\":\"LIVEVERSION\",\"exc-offers-enabled\":\"true\",\"exl-resources-widget-enabled\":\"true\",\"experience-manager-home-enabled\":\"false\",\"experimentation-hub-enabled\":\"false\",\"fast-token\":\"true\",\"firefly-enabled-list\":\"true\",\"genstudio-home-customization-enabled\":\"true\",\"genstudio-ojas-enabled\":\"false\",\"griffon-spa-enabled\":\"true\",\"health-care-enabled\":\"false\",\"help-center-feedback-disabled\":\"NONE\",\"home-dashboard-enabled\":\"true\",\"home-search-enabled\":\"true\",\"intelligent-services-poc-enabled\":\"false\",\"landing-unified-search\":\"true\",\"launch-app-configurations-enabled\":\"false\",\"launch-app-surfaces-enabled\":\"false\",\"launch-data-streams-beta-enabled\":\"false\",\"launch-data-streams-enabled\":\"false\",\"launch-monitoring-enabled\":\"false\",\"launch-server-properties-enabled\":\"false\",\"launch-spa-enabled\":\"true\",\"loyalty-challenge-enabled\":\"false\",\"loyalty-challenges\":\"false\",\"mark-test-org-rollout\":\"false\",\"marketo-enabled\":\"true\",\"marketo-measure-v2-enabled\":\"false\",\"marketo-rollout\":\"EXTERNAL\",\"new-devconsole-enabled\":\"true\",\"new-profile-enabled\":\"true\",\"new-profile-org-switcher-enabled\":\"false\",\"office-hours-demo\":\"false\",\"pass-authentication-enabled\":\"true\",\"pba-enabled-apps\":\"all\",\"percentage-rollout-test\":\"false\",\"personalised-search\":\"true\",\"plays-sidenav\":\"false\",\"preferences-slack-enabled\":\"false\",\"project-m-enabled\":\"true\",\"project-m-sidenav\":\"false\",\"project-m-workhub\":\"false\",\"project-orion-enabled\":\"false\",\"pueblo-shell-search-enabled\":\"false\",\"pueblo-thunderbird\":\"true\",\"pulse-slack-enabled\":\"true\",\"pulse-ss-enabled\":\"false\",\"quick-access-customization\":\"true\",\"release-toggles-enabled\":\"true\",\"route-cjm\":\"true\",\"route-data-collection-home\":\"true\",\"route-landing\":\"true\",\"sandbox-switcher-v2-enabled\":\"true\",\"sapphire-admin-config-ui\":\"false\",\"sapphire-buying-group-enabled\":\"false\",\"sapphire-channels-config\":\"true\",\"sapphire-config-ui\":\"false\",\"sapphire-email-template-listing\":\"true\",\"sapphire-enabled\":\"false\",\"sapphire-fragments-listing\":\"true\",\"sapphire-home\":\"true\",\"sapphire-image-listing\":\"true\",\"sapphire-image-listing-ga\":\"false\",\"sapphire-insights-dashboard-enabled\":\"false\",\"sapphire-landing-pages-listing\":\"false\",\"sapphire-left-nav-beta-updates\":\"false\",\"scramjet-spa-enabled\":\"true\",\"service-workers-enabled\":\"ON\",\"shell-ai-chat-aem-docs\":\"false\",\"shell-ai-chat-aem-lh\":\"false\",\"shell-ai-chat-bookmarks-enabled\":\"false\",\"shell-ai-chat-cja-data\":\"false\",\"shell-ai-chat-cja-doc\":\"false\",\"shell-ai-chat-cja-usage\":\"false\",\"shell-ai-chat-dialog-enabled\":\"false\",\"shell-ai-chat-enabled\":\"false\",\"shell-ai-chat-enabled-by-sandbox\":\"off-value\",\"shell-ai-chat-prompt-autocomplete\":\"false\",\"show-approvals-tab\":\"false\",\"show-er-modeler\":\"false\",\"show-ftux-get-started-widget\":\"sapphireHome,experiencePlatformUI-home\",\"tags-beta-enabled\":\"false\",\"tags-collection-enabled\":\"false\",\"tags-enabled\":\"true\",\"tags-rule-enabled\":\"false\",\"tags-suggestion-enabled\":\"false\",\"target-activities-enabled\":\"\\\\/target\\\\/activities($|\\\\/$|\\\\/activityLibrary|\\\\/activityFailed)\",\"target-activities-enabled-test\":\"false\",\"target-ai-assistant-enabled\":\"false\",\"target-audiences-spa-enabled\":\"OfF_fAlSe\",\"target-offers-enabled\":\"OfF_fAlSe\",\"target-products-enabled\":\"OfF_fAlSe\",\"target-setup-enabled\":\"OfF_fAlSe\",\"test-flag-cache\":\"false\",\"theme-support\":\"true\",\"triggers-bypass-enabled\":\"false\",\"triggersUI-enabled\":\"false\",\"tux-disabled-apps\":\"commerceInstanceDiscovery,landing,pulse,userPreferences\",\"tux-pilot-enabled\":\"NONE\",\"ucp-enabled\":\"false\",\"ucp-for-all\":\"true\",\"unified-home-enabled\":\"false\",\"unified-search\":\"true\",\"unified-search-disable-nouns\":\"EMPTY\",\"unified-search-enable-recents\":\"false\",\"upf-approval-workflow\":\"false\",\"upf-enabled\":\"true\",\"upf-policy-edit-disabled\":\"true\",\"upf-policy-sandbox-configuration\":\"true\",\"upf-watchtower\":\"true\",\"use-cases-enabled\":\"true\",\"user-consent-enabled\":\"true\",\"user-consent-v2-enabled\":\"false\",\"windrose-enabled\":\"false\",\"work-hub-enabled\":\"false\",\"workfront-enabled\":\"true\",\"workfront-fusion-enabled\":\"true\",\"workfront-suborg-filter\":\"[]\",\"workfront-tasks-widget-enabled\":\"true\"}},\"floodgate/5A4521B65E37CAFC0A495FA6@AdobeOrg\":{\"unified-shell\":{}}}}"
+        },
+        {
+          "name": "shellStorageExpiration",
+          "value": "{\"accountLanguagePreferences\":0,\"shellUserConsent\":2044864036721,\"unifiedShellSession\":0,\"tenantMap\":1732096036788,\"unifiedShellDiscovery\":1731923239125}"
+        },
+        {
+          "name": "tenantMap",
+          "value": "N|{\"formsinternal01\":\"5A4521B65E37CAFC0A495FA6@AdobeOrg\",\"LAST_ORG\":\"5A4521B65E37CAFC0A495FA6@AdobeOrg\"}"
+        },
+        {
+          "name": "logoutUrls",
+          "value": "[\"/system/sling/logout.html\"]"
+        },
+        {
+          "name": "accountLanguagePreferences",
+          "value": "N|{\"1159396710\":[\"en-GB\"]}"
+        },
+        {
+          "name": "ORIGINATOR_UNIFIED_SHELL_ENABLED",
+          "value": "true"
+        },
+        {
+          "name": "unifiedShellDiscovery",
+          "value": "N|{\"aemshell-1240902168\":{\"imsOrg\":\"5A4521B65E37CAFC0A495FA6@AdobeOrg\",\"discoveryUrl\":\"https://author-p133911-e1313554.adobeaemcloud.com/bin/unifiedshell/discovery?configid=ims\",\"expires\":1729547239124,\"fulfilled\":1729504039124}}"
+        }
+      ]
+    },
+    {
+      "origin": "https://auth.services.adobe.com",
+      "localStorage": [
+        {
+          "name": "com.adobe.reactor.dataElementCookiesMigrated",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}
