@@ -37,7 +37,7 @@
           "name": "validation",
           "label": "Validation",
           "collapsible": true,
-          "...": "../form-common/_number-validation-fields.json"
+          "...": "../form-common/_telephone-validation-fields.json"
         }
       ]
     }

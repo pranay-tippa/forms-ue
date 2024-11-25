@@ -28,7 +28,8 @@
             "component": "text",
             "name": "dataRef",
             "label": "Bind reference",
-            "valueType": "string"
+            "valueType": "string",
+            "description": "You can specify a Document of Record Bind Reference to link an adaptive form field with a document of record field. When you fill any value in the linked field of an adaptive form, the value is also displayed in the linked field of the corresponding document of a record."
         },
         {
             "component": "boolean",
