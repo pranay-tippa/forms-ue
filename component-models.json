@@ -2311,7 +2311,8 @@
             "component": "text",
             "name": "dataRef",
             "label": "Bind reference",
-            "valueType": "string"
+            "valueType": "string",
+            "description": "You can specify a Document of Record Bind Reference to link an adaptive form field with a document of record field. When you fill any value in the linked field of an adaptive form, the value is also displayed in the linked field of the corresponding document of a record."
           },
           {
             "component": "boolean",
@@ -2470,6 +2471,12 @@
             "description": "Error message shown when entered value is less than minimum."
           },
           {
+            "component": "boolean",
+            "name": "excludeMinimumCheck",
+            "label": "Exclude minimum value",
+            "valueType": "boolean"
+          },
+          {
             "component": "number",
             "name": "maximum",
             "label": "Highest number / Largest number",
@@ -2482,6 +2489,12 @@
             "valueType": "string",
             "label": "Maximum error message",
             "description": "Error message shown when the entered value is more than maximum."
+          },
+          {
+            "component": "boolean",
+            "name": "excludeMaximumCheck",
+            "label": "Exclude maximum value",
+            "valueType": "boolean"
           }
         ]
       },
@@ -4239,6 +4252,12 @@
             "component": "boolean",
             "name": "hideTitle",
             "label": "Hide title",
+            "valueType": "boolean"
+          },
+          {
+            "component": "boolean",
+            "name": "wrapData",
+            "label": "Group child components' data on form submission",
             "valueType": "boolean"
           },
           {
