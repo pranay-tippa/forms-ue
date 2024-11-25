@@ -2859,21 +2859,6 @@
               }
             ]
           },
-          /*{
-            "component": "text",
-            "name": "enumNames",
-            "label": "Options (Display Value)",
-            "valueType": "string",
-            "multi": true,
-            "fields": [
-              {
-                "component": "richtext",
-                "name": "rte",
-                "label": "Rich Text",
-                "valueType": "string"
-              }
-            ]
-          },*/
           {
             "component": "text",
             "name": "default",
