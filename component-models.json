@@ -2570,6 +2570,12 @@
             "valueType": "boolean"
           },
           {
+            "component": "boolean",
+            "name": "wrapData",
+            "label": "Group child components' data on form submission",
+            "valueType": "boolean"
+          },
+          {
             "component": "text",
             "name": "dataRef",
             "label": "Bind reference",
