@@ -2846,21 +2846,6 @@
           },
           {
             "component": "richtext",
-            "name": "rte",
-            "label": "Rich Text",
-            "valueType": "string",
-            "fields": [
-              {
-                "component": "text",
-                "name": "enumNames",
-                "label": "Options (Display Value)",
-                "valueType": "string",
-                "multi": true
-              }
-            ]
-          },
-          {
-            "component": "text",
             "name": "enumNames",
             "label": "Options (Display Value)",
             "valueType": "string",
