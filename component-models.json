@@ -2861,6 +2861,13 @@
           },
           {
             "component": "text",
+            "name": "enumNames",
+            "label": "Options (Display Value)",
+            "valueType": "string",
+            "multi": true
+          },
+          {
+            "component": "text",
             "name": "default",
             "label": "Default option",
             "valueType": "string"
