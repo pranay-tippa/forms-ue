@@ -36,22 +36,10 @@
                     "name": "basic",
                     "label": "Basic",
                     "collapsible": false,
-                    "fields": [
-                        {
-                            "...": "./_common.json#/basicfields"
-                        }
-                    ]
+                    "...": "../form-common/_basic-input-fields.json"
                 },
                 {
-                    "component": "container",
-                    "name": "help",
-                    "label": "Help Content",
-                    "collapsible": true,
-                    "fields": [
-                        {
-                            "...": "./_common.json#/helpfields"
-                        }
-                    ]
+                    "...": "../form-common/_help-container.json"
                 },
                 {
                     "component": "container",
@@ -60,14 +48,7 @@
                     "collapsible": true,
                     "fields": [
                         {
-                            "...": "./_common.json#/validationfields"
-                        },
-                        {
-                            "component": "text",
-                            "name": "validateExpMessage",
-                            "label": "Script validation message",
-                            "valueType": "string",
-                            "description": "Displayed when validation script fails."
+                            "...": "../form-common/_script-validation-fields.json#/fields"
                         },
                         {
                             "component": "number",
