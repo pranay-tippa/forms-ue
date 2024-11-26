@@ -3456,7 +3456,6 @@
             "component": "text",
             "name": "jcr:title",
             "label": "Title",
-            "value": "Default Title",
             "valueType": "string"
           },
           {
@@ -3557,7 +3556,8 @@
             "component": "text",
             "name": "placeholder",
             "label": "Placeholder text",
-            "valueType": "string"
+            "valueType": "string",
+            "value": "Default Title"
           },
           {
             "component": "text",
