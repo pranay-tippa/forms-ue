@@ -3456,6 +3456,7 @@
             "component": "text",
             "name": "jcr:title",
             "label": "Title",
+            "value": "Default Title",
             "valueType": "string"
           },
           {
