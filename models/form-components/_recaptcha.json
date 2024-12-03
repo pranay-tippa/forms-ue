@@ -26,6 +26,13 @@
                     "label": "Name",
                     "valueType": "string",
                     "required": true
+                },
+                {
+                    "component": "container",
+                    "name": "validation",
+                    "label": "Validation",
+                    "collapsible": true,
+                    "...": "../form-common/_basic-validation-fields.json"
                 }
             ]
         }
