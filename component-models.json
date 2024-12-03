@@ -2981,12 +2981,6 @@
         "collapsible": true,
         "fields": [
           {
-            "component": "boolean",
-            "name": "required",
-            "label": "Required",
-            "valueType": "boolean"
-          },
-          {
             "component": "text",
             "name": "mandatoryMessage",
             "label": "Error message",
