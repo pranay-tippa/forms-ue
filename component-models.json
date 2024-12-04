@@ -2326,7 +2326,7 @@
             "name": "dataRef",
             "label": "Bind reference",
             "valueType": "string",
-            "description": "You can specify a Document of Record Bind Reference to link an adaptive form field with a document of record field. When you fill any value in the linked field of an adaptive form, the value is also displayed in the linked field of the corresponding document of a record."
+            "description": "Use the Bind Reference option to link form fields to specific data nodes or properties within a data schema, enabling interaction with data sources for pre-population and backend system integrations."
           },
           {
             "component": "boolean",
