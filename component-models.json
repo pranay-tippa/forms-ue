@@ -962,7 +962,8 @@
             "component": "text",
             "name": "dataRef",
             "label": "Bind reference",
-            "valueType": "string"
+            "valueType": "string",
+            "Description": "Use the Bind Reference option to link form fields to specific data nodes or properties within a data schema, enabling interaction with data sources for pre-population and backend system integrations."
           },
           {
             "component": "boolean",
