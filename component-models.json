@@ -1190,9 +1190,7 @@
               },
               {
                 "name": "custom",
-                "value": {
-                  "var": "displayFormat"
-                }
+                "value": "custom"
               }
             ]
           },
