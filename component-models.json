@@ -1161,7 +1161,7 @@
           {
             "component": "select",
             "label": "Display Format",
-            "name": "displayFormat",
+            "name": "displayPatternType",
             "valueType": "string",
             "options": [
               {
@@ -1187,8 +1187,29 @@
               {
                 "name": "1/4/2007",
                 "value": "d/M/y"
+              },
+              {
+                "name": "custom",
+                "value": {
+                  "var": "displayFormat"
+                }
               }
             ]
+          },
+          {
+            "component": "text",
+            "name": "displayFormat",
+            "label": "Format",
+            "valueType": "string",
+            "description": "Enter custom format here",
+            "condition": {
+            "==": [
+              {
+                "var": "displayPatternType"
+              },
+              "custom"
+            ]
+            }
           }
         ]
       }
