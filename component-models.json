@@ -1200,12 +1200,24 @@
             "label": "Format",
             "valueType": "string",
             "condition": {
-            "!=": [
-              {
-                "var": "displayPatternType"
-              },
-              ""
-            ]
+              "and": [
+                {
+                  "!=": [
+                    {
+                      "var": "displayPatternType"
+                    },
+                    ""
+                  ]
+                },
+                {
+                  "!=": [
+                    {
+                      "var": "displayPatternType"
+                    },
+                    "No Pattern"
+                  ]
+                }
+              ]
             }
           }
         ]
