@@ -1199,13 +1199,12 @@
             "name": "displayFormat",
             "label": "Format",
             "valueType": "string",
-            "description": "Enter custom format here",
             "condition": {
-            "==": [
+            "!=": [
               {
                 "var": "displayPatternType"
               },
-              "custom"
+              ""
             ]
             }
           }
