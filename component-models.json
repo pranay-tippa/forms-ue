@@ -2453,6 +2453,22 @@
             "valueType": "string"
           },
           {
+            "component": "select",
+            "name": "type",
+            "label": "Number type",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "Number",
+                "value": "Decimal (1234.000)"
+              },
+              {
+                "name": "integer",
+                "value": "Integer (1234)"
+              }
+            ]
+          },
+          {
             "component": "text",
             "name": "default",
             "label": "Default Value",
