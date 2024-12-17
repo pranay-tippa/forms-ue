@@ -749,6 +749,13 @@
           },
           {
             "component": "text",
+            "name": "checkedValue",
+            "label": "When Checked, return value",
+            "valueType": "string",
+            "value": "On"
+          },
+          {
+            "component": "text",
             "name": "dataRef",
             "label": "Bind reference",
             "valueType": "string"
