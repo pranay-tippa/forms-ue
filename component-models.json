@@ -2459,12 +2459,12 @@
             "valueType": "string",
             "options": [
               {
-                "name": "Number",
-                "value": "Decimal (1234.000)"
+                "name": "Decimal (1234.000)",
+                "value": "Number"
               },
               {
-                "name": "integer",
-                "value": "Integer (1234)"
+                "name": "Integer (1234)",
+                "value": "integer"
               }
             ]
           },
