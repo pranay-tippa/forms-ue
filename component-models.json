@@ -3744,6 +3744,42 @@
             "description": "Error message shown when the pattern is not matched."
           }
         ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": false,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "description",
+                "value": "description"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              },
+              {
+                "name": "name",
+                "value": "Name"
+              },
+              {
+                "name": "none",
+                "value": "Nome"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
