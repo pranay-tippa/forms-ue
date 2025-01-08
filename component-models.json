@@ -3749,7 +3749,7 @@
         "component": "container",
         "name": "accessibility",
         "label": "Accessibility",
-        "collapsible": false,
+        "collapsible": true,
         "fields": [
           {
             "component": "select",
