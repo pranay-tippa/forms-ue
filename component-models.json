@@ -711,6 +711,56 @@
             "description": "Displayed when validation script fails."
           }
         ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "description",
+                "value": "description"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              },
+              {
+                "name": "name",
+                "value": "Name"
+              },
+              {
+                "name": "none",
+                "value": "Nome"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "customText",
+            "label": "Custom Text",
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "assistPriority"
+                },
+                "Custom Text"
+              ]
+            }
+          }
+        ]
       }
     ]
   },
