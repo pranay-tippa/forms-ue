@@ -3778,6 +3778,20 @@
                 "value": "Nome"
               }
             ]
+          },
+          {
+            "component": "text",
+            "name": "customText",
+            "label": "Custom Text",
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "assistPriority"
+                },
+                "Custom Text"
+              ]
+            }
           }
         ]
       }
