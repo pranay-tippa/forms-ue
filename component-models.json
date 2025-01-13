@@ -2625,8 +2625,8 @@
                 "value": "#,###,##0%"
               }
             ]
-          }
-          /*{
+          },
+          {
             "component": "label",
             "name": "language",
             "label": "Language",
@@ -2679,16 +2679,9 @@
                 "value": "custom"
               }
             ]
-          },
-          {
-            "component": "text",
-            "name": "lang",
-            "label": "IETF BCP 47 language tag",
-            "valueType": "string",
-            "description": "The language to use for formatting the field."
           }
         ]
-      }*/
+      }
     ]
   },
   {
