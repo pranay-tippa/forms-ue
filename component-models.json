@@ -2654,6 +2654,36 @@
                 "value": "#,###,##0%"
               }
             ]
+          },
+          {
+            "component": "label",
+            "name": "",
+            "label": "Language",
+            "valueType": "string"
+          },
+          {
+            "component": "select",
+            "name": "validationPatternType",
+            "label": "Type",
+            "valueType": "string",
+            "defaultValue": "",
+            "options": [
+              {
+                "name": "Select",
+                "value": ""
+              },
+              {
+                "name": "Custom",
+                "value": "custom"
+              }
+            ]
+          },
+          {
+          "component": "text",
+          "name": "lang",
+          "label": "IETF BCP 47 language tag",
+          "valueType": "string",
+          "description": "The language to use for formatting the field."
           }
         ]
       }
