@@ -3780,16 +3780,15 @@
             "description": "Error message shown when more than maximum characters are entered."
           },
           {
-
             "component": "select",
             "name": "validationPatternType",
             "label": "Type",
             "valueType": "string",
-            "value": "select",
+            "value": "Select",
             "options": [
               {
                 "name": "Select",
-                "value": "select"
+                "value": "Select"
               },
               {
                 "name": "Custom",
