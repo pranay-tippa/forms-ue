@@ -2637,7 +2637,6 @@
             "name": "langDisplayValue",
             "label": "Type",
             "valueType": "string",
-            "defaultValue": "Select",
             "options": [
               {
                 "name": "Select",
