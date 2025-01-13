@@ -2640,7 +2640,8 @@
             "defaultValue": "Select",
             "options": [
               {
-                "name": "Select"
+                "name": "Select",
+                "value": ""
               },
               {
                 "name": "German",
