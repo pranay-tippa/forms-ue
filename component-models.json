@@ -2657,7 +2657,7 @@
           },
           {
             "component": "label",
-            "name": "",
+            "name": "language",
             "label": "Language",
             "valueType": "string"
           },
