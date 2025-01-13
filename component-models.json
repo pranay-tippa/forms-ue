@@ -2418,8 +2418,7 @@
             "component": "text",
             "name": "dataRef",
             "label": "Bind reference",
-            "valueType": "string",
-            "description": "Use the Bind Reference option to link form fields to specific data nodes or properties within a data schema, enabling interaction with data sources for pre-population and backend system integrations."
+            "valueType": "string"
           },
           {
             "component": "boolean",
@@ -2510,22 +2509,6 @@
             "valueType": "string"
           },
           {
-            "component": "select",
-            "name": "type",
-            "label": "Number type",
-            "valueType": "string",
-            "options": [
-              {
-                "name": "Decimal (1234.000)",
-                "value": "Number"
-              },
-              {
-                "name": "Integer (1234)",
-                "value": "integer"
-              }
-            ]
-          },
-          {
             "component": "text",
             "name": "default",
             "label": "Default Value",
@@ -2594,12 +2577,6 @@
             "description": "Error message shown when entered value is less than minimum."
           },
           {
-            "component": "boolean",
-            "name": "excludeMinimumCheck",
-            "label": "Exclude minimum value",
-            "valueType": "boolean"
-          },
-          {
             "component": "number",
             "name": "maximum",
             "label": "Highest number / Largest number",
@@ -2612,12 +2589,6 @@
             "valueType": "string",
             "label": "Maximum error message",
             "description": "Error message shown when the entered value is more than maximum."
-          },
-          {
-            "component": "boolean",
-            "name": "excludeMaximumCheck",
-            "label": "Exclude maximum value",
-            "valueType": "boolean"
           }
         ]
       },
@@ -2655,67 +2626,6 @@
               }
             ]
           }
-          /*{
-            "component": "label",
-            "name": "language",
-            "label": "Language",
-            "valueType": "string"
-          },
-          {
-            "component": "select",
-            "name": "langDisplayValue",
-            "label": "Type",
-            "valueType": "string",
-            "defaultValue": "Select",
-            "options": [
-              {
-                "name": "Select"
-              },
-              {
-                "name": "German",
-                "value": "de-DE"
-              },
-              {
-                "name": "English",
-                "value": "en-US"
-              },
-              {
-                "name": "French",
-                "value": "fr-FR"
-              },
-              {
-                "name": "Italian",
-                "value": "it-IT"
-              },
-              {
-                "name": "Japanese",
-                "value": "ja-JP"
-              },
-              {
-                "name": "Chinese (Simplified)",
-                "value": "zh-CN"
-              },
-              {
-                "name": "Chinese (Traditional)",
-                "value": "zh-TW"
-              },
-              {
-                "name": "Korean",
-                "value": "ko-KR"
-              },
-              {
-                "name": "Custom",
-                "value": "custom"
-              }
-            ]
-          },
-          {
-            "component": "text",
-            "name": "lang",
-            "label": "IETF BCP 47 language tag",
-            "valueType": "string",
-            "description": "The language to use for formatting the field."
-          }*/
         ]
       }
     ]
