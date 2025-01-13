@@ -2656,67 +2656,65 @@
             ]
           },
           {
-            "component": "container",
-            "name": "language",
+            "component": "label",
+            "name": "",
             "label": "Language",
-            "collapsible": true,
-            "fields": [
+            "valueType": "string"
+          },
+          {
+            "component": "select",
+            "name": "langDisplayValue",
+            "label": "Type",
+            "valueType": "string",
+            "defaultValue": "Select",
+            "options": [
               {
-                "component": "select",
-                "name": "langDisplayValue",
-                "label": "Type",
-                "valueType": "string",
-                "defaultValue": "Select",
-                "options": [
-                  {
-                    "name": "Select"
-                  },
-                  {
-                    "name": "German",
-                    "value": "de-DE"
-                  },
-                  {
-                    "name": "English",
-                    "value": "en-US"
-                  },
-                  {
-                    "name": "French",
-                    "value": "fr-FR"
-                  },
-                  {
-                    "name": "Italian",
-                    "value": "it-IT"
-                  },
-                  {
-                    "name": "Japanese",
-                    "value": "ja-JP"
-                  },
-                  {
-                    "name": "Chinese (Simplified)",
-                    "value": "zh-CN"
-                  },
-                  {
-                    "name": "Chinese (Traditional)",
-                    "value": "zh-TW"
-                  },
-                  {
-                    "name": "Korean",
-                    "value": "ko-KR"
-                  },
-                  {
-                    "name": "Custom",
-                    "value": "custom"
-                  }
-                ]
+                "name": "Select"
               },
               {
-                "component": "text",
-                "name": "lang",
-                "label": "IETF BCP 47 language tag",
-                "valueType": "string",
-                "description": "The language to use for formatting the field."
+                "name": "German",
+                "value": "de-DE"
+              },
+              {
+                "name": "English",
+                "value": "en-US"
+              },
+              {
+                "name": "French",
+                "value": "fr-FR"
+              },
+              {
+                "name": "Italian",
+                "value": "it-IT"
+              },
+              {
+                "name": "Japanese",
+                "value": "ja-JP"
+              },
+              {
+                "name": "Chinese (Simplified)",
+                "value": "zh-CN"
+              },
+              {
+                "name": "Chinese (Traditional)",
+                "value": "zh-TW"
+              },
+              {
+                "name": "Korean",
+                "value": "ko-KR"
+              },
+              {
+                "name": "Custom",
+                "value": "custom"
               }
             ]
+          },
+          {
+          "component": "text",
+          "name": "lang",
+          "label": "IETF BCP 47 language tag",
+          "valueType": "string",
+          "description": "The language to use for formatting the field."
           }
         ]
       }
