@@ -2710,11 +2710,11 @@
             ]
           },
           {
-          "component": "text",
-          "name": "lang",
-          "label": "IETF BCP 47 language tag",
-          "valueType": "string",
-          "description": "The language to use for formatting the field."
+            "component": "text",
+            "name": "lang",
+            "label": "IETF BCP 47 language tag",
+            "valueType": "string",
+            "description": "The language to use for formatting the field."
           }
         ]
       }
