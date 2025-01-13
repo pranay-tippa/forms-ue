@@ -3785,11 +3785,11 @@
             "name": "validationPatternType",
             "label": "Type",
             "valueType": "string",
-            "value": "Select",
+            "value": "select",
             "options": [
               {
                 "name": "Select",
-                "value": ""
+                "value": "select"
               },
               {
                 "name": "Custom",
