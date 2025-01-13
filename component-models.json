@@ -2625,8 +2625,8 @@
                 "value": "#,###,##0%"
               }
             ]
-          },
-          {
+          }
+          /*{
             "component": "label",
             "name": "language",
             "label": "Language",
@@ -2688,7 +2688,7 @@
             "description": "The language to use for formatting the field."
           }
         ]
-      }
+      }*/
     ]
   },
   {
