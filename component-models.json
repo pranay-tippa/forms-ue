@@ -1633,6 +1633,26 @@
             "name": "default",
             "label": "Default Value",
             "valueType": "string"
+          },
+          {
+            "component": "select",
+            "name": "autocomplete",
+            "label": "Autofill attribute",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "off",
+                "value": "off"
+              },
+              {
+                "name": "on",
+                "value": "on"
+              },
+              {
+                "name": "email",
+                "value": "email"
+              }
+            ]
           }
         ]
       },
