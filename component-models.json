@@ -2625,67 +2625,6 @@
                 "value": "#,###,##0%"
               }
             ]
-          },
-          {
-            "component": "text",
-            "name": "language",
-            "label": "Language",
-            "valueType": "string"
-          },
-          {
-            "component": "select",
-            "name": "langDisplayValue",
-            "label": "Type",
-            "valueType": "string",
-            "options": [
-              {
-                "name": "Select",
-                "value": ""
-              },
-              {
-                "name": "German",
-                "value": "de-DE"
-              },
-              {
-                "name": "English",
-                "value": "en-US"
-              },
-              {
-                "name": "French",
-                "value": "fr-FR"
-              },
-              {
-                "name": "Italian",
-                "value": "it-IT"
-              },
-              {
-                "name": "Japanese",
-                "value": "ja-JP"
-              },
-              {
-                "name": "Chinese (Simplified)",
-                "value": "zh-CN"
-              },
-              {
-                "name": "Chinese (Traditional)",
-                "value": "zh-TW"
-              },
-              {
-                "name": "Korean",
-                "value": "ko-KR"
-              },
-              {
-                "name": "Custom",
-                "value": "custom"
-              }
-            ]
-          },
-          {
-            "component": "text",
-            "name": "lang",
-            "label": "IETF BCP 47 language tag",
-            "valueType": "string",
-            "description": "The language to use for formatting the field."
           }
         ]
       }
