@@ -1347,6 +1347,12 @@
             "valueType": "boolean"
           },
           {
+            "component": "boolean",
+            "name": "multiSelect",
+            "label": "Allow multiple selection",
+            "valueType": "boolean"
+          },
+          {
             "component": "select",
             "name": "colspan",
             "label": "Columns",
@@ -1422,6 +1428,13 @@
             "name": "default",
             "label": "Default option",
             "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "default",
+            "label": "Default option",
+            "valueType": "string",
+            "multi": true
           },
           {
             "component": "text",
