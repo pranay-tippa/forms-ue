@@ -1437,12 +1437,6 @@
             "multi": true
           },
           {
-            "component": "text",
-            "name": "placeholder",
-            "label": "Placeholder text",
-            "valueType": "string"
-          },
-          {
             "component": "select",
             "label": "Data type of submitted value",
             "name": "type",
@@ -1461,6 +1455,12 @@
                 "value": "number"
               }
             ]
+          },
+          {
+            "component": "text",
+            "name": "placeholder",
+            "label": "Placeholder text",
+            "valueType": "string"
           }
         ]
       },
