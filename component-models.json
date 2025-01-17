@@ -3117,6 +3117,38 @@
         "required": true
       },
       {
+        "component": "text",
+        "name": "jcr:title",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "boolean",
+        "name": "hideTitle",
+        "label": "Hide title",
+        "valueType": "boolean"
+      },
+      {
+        "component": "boolean",
+        "name": "visible",
+        "label": "Show Component",
+        "valueType": "boolean",
+        "value": true
+      },
+      {
+        "component": "boolean",
+        "name": "enabled",
+        "label": "Enable Component",
+        "valueType": "boolean",
+        "value": true
+      },
+      {
+        "component": "boolean",
+        "name": "readOnly",
+        "label": "Read-only",
+        "valueType": "boolean"
+      },
+      {
         "component": "container",
         "name": "validation",
         "label": "Validation",
