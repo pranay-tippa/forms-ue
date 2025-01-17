@@ -20,7 +20,7 @@
                             ],
                             "visible": true,
                             "enabled": true,
-                            "type": "number[]"
+                            "type": "number"
                         }
                     }
                 }

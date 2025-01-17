@@ -1309,12 +1309,6 @@
             "valueType": "string"
           },
           {
-            "component": "boolean",
-            "name": "hideTitle",
-            "label": "Hide title",
-            "valueType": "boolean"
-          },
-          {
             "component": "text",
             "name": "dataRef",
             "label": "Bind reference",
