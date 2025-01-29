@@ -3690,7 +3690,9 @@
             "valueType": "boolean",
             "value": true,
             "props": {
-              "disabled": { "var": "required" }
+              "disabled": {
+                "==": [ { "var": "required" }, true ]
+              }
             }
           },
           {
