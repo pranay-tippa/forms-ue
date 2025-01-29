@@ -3689,12 +3689,8 @@
             "label": "Show Component",
             "valueType": "boolean",
             "value": true,
-            "disabled": {
-              "if": [
-                { "var": "required" },
-                true,
-                false
-              ]
+            "props": {
+              "disabled": { "var": "required" }
             }
           },
           {
