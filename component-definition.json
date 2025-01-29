@@ -619,6 +619,23 @@
           }
         },
         {
+          "title": "Title",
+          "id": "title",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/title/v1/title",
+                "template": {
+                  "jcr:title": "Title",
+                  "fieldType": "title",
+                  "enabled": true,
+                  "visible": true
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Wizard",
           "id": "wizard",
           "plugins": {
