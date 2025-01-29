@@ -3689,7 +3689,13 @@
             "label": "Show Component",
             "valueType": "boolean",
             "value": true,
-            "disabled": { "==": [ { "var": "required" }, true ] }
+            "disabled": {
+              "if": [
+                { "var": "required" },
+                true,
+                false
+              ]
+            }
           },
           {
             "component": "boolean",
