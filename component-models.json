@@ -3703,7 +3703,15 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true
+            "value": true,
+            "disabled": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "boolean",
