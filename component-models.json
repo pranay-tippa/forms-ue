@@ -3712,7 +3712,14 @@
             "label": "Enable Component",
             "valueType": "boolean",
             "value": true,
-            "readonly": "{{ required === true }}"
+            "readOnly": {
+            "==": [
+              {
+                "var": "required"
+              },
+              true
+            ]
+          }
           },
           {
             "component": "boolean",
