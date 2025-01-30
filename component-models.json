@@ -3689,19 +3689,10 @@
             "label": "Show Component",
             "valueType": "boolean",
             "value": true,
-            "readOnly": {
-              "==": [
-                {
-                  "var": "required"
-                },
-                true
-              ]
-            },
-            "condition": {
-              "==": [
-                {
-                  "var": "required"
-                },
+            "readonly": {
+              "operator": "eq",
+              "operands": [
+                "${required.value}",
                 true
               ]
             }
