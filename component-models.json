@@ -3693,7 +3693,7 @@
               "operator": "eq",
               "operands": [
                 "${required.value}",
-                true
+                false
               ]
             }
           },
@@ -3708,7 +3708,7 @@
               {
                 "var": "required"
               },
-              true
+              false
             ]
           }
           },
