@@ -3704,7 +3704,7 @@
             "label": "Enable Component",
             "valueType": "boolean",
             "value": true,
-            "disabled": {
+            "readOnly": {
               "==": [
                 {
                   "var": "required"
