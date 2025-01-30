@@ -3696,6 +3696,14 @@
                 },
                 true
               ]
+            },
+            "condition": {
+              "==": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
             }
           },
           {
