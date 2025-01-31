@@ -3710,7 +3710,7 @@
               {
                 "var": "required"
               },
-              true
+              false
             ]
           }
           },
