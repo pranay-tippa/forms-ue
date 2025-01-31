@@ -3704,7 +3704,7 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": true,
+            "value": false,
             "readOnly": {
             "===": [
               {
