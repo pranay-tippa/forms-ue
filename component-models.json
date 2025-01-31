@@ -3704,23 +3704,14 @@
             "name": "enabled",
             "label": "Enable Component",
             "valueType": "boolean",
-            "value": false,
+            "value": true,
             "readOnly": {
-            "===": [
-              {
-                "var": "required"
-              },
-              false
-            ]
-          }
-          },
-          {
-            "component": "boolean",
-            "label": "Boolean",
-            "name": "boolean",
-            "valueType": "boolean",
-            "validation": {
-              "customErrorMsg": "Think, McFly. Think!"
+              "===": [
+                {
+                  "var": "required"
+                },
+                true
+              ]
             }
           },
           {
