@@ -3693,7 +3693,7 @@
               "operator": "eq",
               "operands": [
                 "${required.value}",
-                false
+                true
               ]
             }
           },
@@ -3704,11 +3704,11 @@
             "valueType": "boolean",
             "value": true,
             "readOnly": {
-            "==": [
+            "===": [
               {
                 "var": "required"
               },
-              false
+              true
             ]
           }
           },
