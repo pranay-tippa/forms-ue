@@ -3716,6 +3716,15 @@
           },
           {
             "component": "boolean",
+            "label": "Boolean",
+            "name": "boolean",
+            "valueType": "boolean",
+            "validation": {
+              "customErrorMsg": "Think, McFly. Think!"
+            }
+          },
+          {
+            "component": "boolean",
             "name": "readOnly",
             "label": "Read-only",
             "valueType": "boolean"
