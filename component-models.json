@@ -3690,11 +3690,11 @@
             "valueType": "boolean",
             "validation": {
               "readOnly": {
-                "==": [
+                "===": [
                   {
                     "var": "required"
                   },
-                  true
+                  false
                 ]
               }
             }
