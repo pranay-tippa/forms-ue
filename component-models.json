@@ -3689,12 +3689,12 @@
             "label": "Show Component",
             "valueType": "boolean",
             "validation": {
-              "readOnly": {
+              "enabled": {
                 "===": [
                   {
                     "var": "required"
                   },
-                  false
+                  true
                 ]
               }
             }
