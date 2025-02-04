@@ -1739,6 +1739,19 @@
             "description": "Error message shown when more than maximum characters are entered."
           },
           {
+            "component": "select",
+            "name": "validationPatternType",
+            "label": "Type",
+            "valueType": "string",
+            "options": [
+              { "name": "Select", "value": "" },
+              { "name": "International", "value": "international" },
+              { "name": "US Phone Number", "value": "usPhoneNumber" },
+              { "name": "UK Phone Number", "value": "ukPhoneNumber" },
+              { "name": "Custom", "value": "custom" }
+            ]
+          },
+          {
             "component": "text",
             "name": "pattern",
             "valueType": "string",
