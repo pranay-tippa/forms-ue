@@ -1775,9 +1775,9 @@
             "condition": {
               "===": [
                 {
-                  "var": "required"
+                  "var": "validationPatternType"
                 },
-                true
+                "custom"
               ]
             }
           },
