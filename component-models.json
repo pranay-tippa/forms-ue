@@ -1765,10 +1765,24 @@
               ]
             },
             "value": {
-              "if": [
-                { "===": [{ "var": "validationPatternType" }, "custom"], "then": "custom" },
-                { "===": [{ "var": "validationPatternType" }, "international"], "then": "^[+][0-9]{0,14}$" },
-                { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"], "then": "^[+]1[0-9]{0,10}$" }
+              "===": [
+                { "var": "validationPatternType" },
+                "custom",
+                "custom",
+                {
+                  "===": [
+                    { "var": "validationPatternType" },
+                    "international",
+                    "^[+][0-9]{0,14}$",
+                    {
+                      "===": [
+                        { "var": "validationPatternType" },
+                        "usPhoneNumber",
+                        "^[+]1[0-9]{0,10}$"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           },
