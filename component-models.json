@@ -1748,6 +1748,8 @@
               { "name": "International", "value": "international" },
               { "name": "US Phone Number", "value": "usPhoneNumber" },
               { "name": "UK Phone Number", "value": "ukPhoneNumber" },
+              { "name": "Email", "value": "email" },
+              { "name": "Zip Code", "value": "zipCode" },
               { "name": "Custom", "value": "custom" }
             ]
           },
@@ -1761,23 +1763,24 @@
               "or": [
                 { "===": [{ "var": "validationPatternType" }, "custom"] },
                 { "===": [{ "var": "validationPatternType" }, "international"] },
-                { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] }
+                { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
+                { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"] },
+                { "===": [{ "var": "validationPatternType" }, "email"] },
+                { "===": [{ "var": "validationPatternType" }, "zipCode"] }
               ]
             },
             "value": {
-              "if": [
+              "switch": [
+                { "var": "validationPatternType" },
                 {
-                  "condition": { "===": [{ "var": "validationPatternType" }, "custom"] },
-                  "then": "custom"
+                  "international": "^\\+(?:[0-9] ?){6,14}[0-9]$",
+                  "usPhoneNumber": "^\\(\\d{3}\\) \\d{3}-\\d{4}$",
+                  "ukPhoneNumber": "^\\+44\\s?7\\d{3}\\s?\\d{6}$",
+                  "email": "^[\\w-.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
+                  "zipCode": "^\\d{5}(-\\d{4})?$",
+                  "custom": ""
                 },
-                {
-                  "condition": { "===": [{ "var": "validationPatternType" }, "international"] },
-                  "then": "^[+][0-9]{0,14}$"
-                },
-                {
-                  "condition": { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
-                  "then": "^[+]1[0-9]{0,10}$"
-                }
+                ""
               ]
             }
           },
