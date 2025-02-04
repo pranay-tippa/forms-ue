@@ -1745,9 +1745,9 @@
             "valueType": "string",
             "options": [
               { "name": "Select", "value": "" },
-              { "name": "International", "value": "international" },
-              { "name": "US Phone Number", "value": "usPhoneNumber" },
-              { "name": "UK Phone Number", "value": "ukPhoneNumber" },
+              { "name": "International", "value": "^[+][0-9]{0,14}$" },
+              { "name": "US Phone Number", "value": "^[+]1[0-9]{0,10}$" },
+              { "name": "UK Phone Number", "value": "^[+]44[0-9]{0,10}$" },
               { "name": "Custom", "value": "custom" }
             ]
           },
@@ -1760,21 +1760,21 @@
             "condition": {
               "or": [
                 { "===": [{ "var": "validationPatternType" }, "custom"] },
-                { "===": [{ "var": "validationPatternType" }, "international"] },
-                { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
-                { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"] }
+                { "===": [{ "var": "validationPatternType" }, "^[+][0-9]{0,14}$"] },
+                { "===": [{ "var": "validationPatternType" }, "^[+]1[0-9]{0,10}$"] },
+                { "===": [{ "var": "validationPatternType" }, "^[+]44[0-9]{0,10}$"] }
               ]
             },
             "value": {
               "if": [
-                { "===": [{ "var": "validationPatternType" }, "international"] },
-                "^\\+(?:[0-9] ?){6,14}[0-9]$",
+                { "===": [{ "var": "validationPatternType" }, "^[+][0-9]{0,14}$"] },
+                "^[+][0-9]{0,14}$",
                 { "if": [
-                  { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
-                  "^\\(\\d{3}\\) \\d{3}-\\d{4}$",
+                  { "===": [{ "var": "validationPatternType" }, "^[+]1[0-9]{0,10}$"] },
+                  "^[+]1[0-9]{0,10}$",
                   { "if": [
-                    { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"] },
-                    "^\\+44\\s?7\\d{3}\\s?\\d{6}$",
+                    { "===": [{ "var": "validationPatternType" }, "^[+]44[0-9]{0,10}$"] },
+                    "^[+]44[0-9]{0,10}$",
                     { "if": [
                       { "===": [{ "var": "validationPatternType" }, "custom"] },
                       "",
