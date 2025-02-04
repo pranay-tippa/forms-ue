@@ -1766,7 +1766,11 @@
               ]
             },
             "value": {
-                "var": "validationPatternType"
+              "if": [
+                { "===": [{ "var": "validationPatternType" }, "custom"] },
+                "",
+                { "var": "validationPatternType" }
+              ]
             }
           },
           {
