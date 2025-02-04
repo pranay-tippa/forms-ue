@@ -1745,8 +1745,9 @@
             "valueType": "string",
             "options": [
               { "name": "Select", "value": "" },
+              { "name": "International", "value": "international" },
               { "name": "US Phone Number", "value": "usPhoneNumber" },
-              { "name": "Email", "value": "email" },
+              { "name": "UK Phone Number", "value": "ukPhoneNumber" },
               { "name": "Custom", "value": "custom" }
             ]
           },
@@ -1759,18 +1760,27 @@
             "condition": {
               "or": [
                 { "===": [{ "var": "validationPatternType" }, "custom"] },
+                { "===": [{ "var": "validationPatternType" }, "international"] },
                 { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
-                { "===": [{ "var": "validationPatternType" }, "email"] }
+                { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"] }
               ]
             },
             "value": {
               "if": [
-                { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
-                "^\\(\\d{3}\\) \\d{3}-\\d{4}$",
+                { "===": [{ "var": "validationPatternType" }, "international"] },
+                "^\\+(?:[0-9] ?){6,14}[0-9]$",
                 { "if": [
-                  { "===": [{ "var": "validationPatternType" }, "email"] },
-                  "^[\\w-.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
-                  ""
+                  { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
+                  "^\\(\\d{3}\\) \\d{3}-\\d{4}$",
+                  { "if": [
+                    { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"] },
+                    "^\\+44\\s?7\\d{3}\\s?\\d{6}$",
+                    { "if": [
+                      { "===": [{ "var": "validationPatternType" }, "custom"] },
+                      "",
+                      ""
+                    ]}
+                  ]}
                 ]}
               ]
             }
