@@ -1744,26 +1744,11 @@
             "label": "Type",
             "valueType": "string",
             "options": [
-              {
-                "name": "Select",
-                "value": ""
-              },
-              {
-                "name": "International",
-                "value": "^[+][0-9]{0,14}$"
-              },
-              {
-                "name": "US Phone Number",
-                "value": "^[+]1[0-9]{0,10}$"
-              },
-              {
-                "name": "UK Phone Number",
-                "value": "^[+]44[0-9]{0,10}$"
-              },
-              {
-                "name": "Custom",
-                "value": "custom"
-              }
+              { "name": "Select", "value": "" },
+              { "name": "International", "value": "international" },
+              { "name": "US Phone Number", "value": "usPhoneNumber" },
+              { "name": "UK Phone Number", "value": "ukPhoneNumber" },
+              { "name": "Custom", "value": "custom" }
             ]
           },
           {
@@ -1774,36 +1759,24 @@
             "description": "Regular Expression is permitted.",
             "condition": {
               "or": [
+                { "===": [{ "var": "validationPatternType" }, "international"] },
+                { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
+                { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"] },
+                { "===": [{ "var": "validationPatternType" }, "custom"] }
+              ]
+            },
+            "value": {
+              "if": [
+                { "===": [{ "var": "validationPatternType" }, "international"], "then": "^[+][0-9]{0,14}$" },
                 {
-                  "===": [
+                  "if": [
+                    { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"], "then": "^[+]1[0-9]{0,10}$" },
                     {
-                      "var": "validationPatternType"
-                    },
-                    "^[+][0-9]{0,14}$"
-                  ]
-                },
-                {
-                  "===": [
-                    {
-                      "var": "validationPatternType"
-                    },
-                    "^[+]1[0-9]{0,10}$"
-                  ]
-                },
-                {
-                  "===": [
-                    {
-                      "var": "validationPatternType"
-                    },
-                    "^[+]44[0-9]{0,10}$"
-                  ]
-                },
-                {
-                  "===": [
-                    {
-                      "var": "validationPatternType"
-                    },
-                    "custom"
+                      "if": [
+                        { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"], "then": "^[+]44[0-9]{0,10}$" },
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
