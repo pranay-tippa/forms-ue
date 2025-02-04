@@ -3665,7 +3665,7 @@
           {
             "component": "text",
             "name": "pattern",
-            "label": "Pattern",
+            "label": "Pranay",
             "valueType": "string",
             "description": "Regular Expression is permitted.",
             "condition": { "===": [{"var" : "validationPatternType"}, true] }
