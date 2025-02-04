@@ -3920,11 +3920,22 @@
             "name": "validationPatternType",
             "label": "Type",
             "valueType": "string",
-            "defaultValue": "",
             "options": [
               {
                 "name": "Select",
                 "value": ""
+              },
+              {
+                "name": "International",
+                "value": "^[+][0-9]{0,14}$"
+              },
+              {
+                "name": "US Phone Number",
+                "value": "^[+]1[0-9]{0,10}$"
+              },
+              {
+                "name": "UK Phone Number",
+                "value": "^[+]44[0-9]{0,10}$"
               },
               {
                 "name": "Custom",
@@ -3935,9 +3946,18 @@
           {
             "component": "text",
             "name": "pattern",
-            "valueType": "string",
             "label": "Pattern",
-            "description": "Regular Expression is permitted."
+            "valueType": "string",
+            "description": "Regular Expression is permitted.",
+            "value": false,
+            "condition": {
+              "!==": [
+                {
+                  "var": "validationPatternType"
+                },
+                ""
+              ]
+            }
           },
           {
             "component": "text",
