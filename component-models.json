@@ -1758,21 +1758,12 @@
             "label": "Pattern",
             "description": "Regular Expression is permitted.",
             "condition": {
-              "or": [
-                { "===": [{ "var": "validationPatternType" }, "international"] },
-                { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
-                { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"] },
-                { "===": [{ "var": "validationPatternType" }, "custom"] }
+              "===": [
+                { "var": "validationPatternType" },
+                "custom"
               ]
             },
-            "value": {
-              "if": [
-                { "===": [{ "var": "validationPatternType" }, "international"], "then": "^[+][0-9]{0,14}$" },
-                { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"], "then": "^[+]1[0-9]{0,10}$" },
-                { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"], "then": "^[+]44[0-9]{0,10}$" },
-                { "===": [{ "var": "validationPatternType" }, "custom"], "then": "" }
-              ]
-            }
+            "value": "custom"
           },
           {
             "component": "text",
