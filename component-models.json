@@ -3668,7 +3668,6 @@
             "label": "Pattern",
             "valueType": "string",
             "description": "Regular Expression is permitted.",
-            "value": false,
             "condition": {
               "!==": [
                 {
