@@ -1773,11 +1773,11 @@
             "label": "Pattern",
             "description": "Regular Expression is permitted.",
             "condition": {
-              "!=": [
+              "===": [
                 {
-                  "var": "validationPatternType"
+                  "var": "required"
                 },
-                ""
+                true
               ]
             }
           },
