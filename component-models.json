@@ -1773,11 +1773,39 @@
             "label": "Pattern",
             "description": "Regular Expression is permitted.",
             "condition": {
-              "===": [
+              "or": [
                 {
-                  "var": "validationPatternType"
+                  "===": [
+                    {
+                      "var": "validationPatternType"
+                    },
+                    "^[+][0-9]{0,14}$"
+                  ]
                 },
-                "custom"
+                {
+                  "===": [
+                    {
+                      "var": "validationPatternType"
+                    },
+                    "^[+]1[0-9]{0,10}$"
+                  ]
+                },
+                {
+                  "===": [
+                    {
+                      "var": "validationPatternType"
+                    },
+                    "^[+]44[0-9]{0,10}$"
+                  ]
+                },
+                {
+                  "===": [
+                    {
+                      "var": "validationPatternType"
+                    },
+                    "custom"
+                  ]
+                }
               ]
             }
           },
