@@ -3668,14 +3668,7 @@
             "label": "Pattern",
             "valueType": "string",
             "description": "Regular Expression is permitted.",
-            "condition": {
-              "!==": [
-                {
-                  "var": "validationPatternType"
-                },
-                ""
-              ]
-            }
+            "condition": { "===": [{"var" : "validationPatternType"}, true] }
           }
         ]
       }
