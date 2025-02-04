@@ -1745,11 +1745,8 @@
             "valueType": "string",
             "options": [
               { "name": "Select", "value": "" },
-              { "name": "International", "value": "international" },
               { "name": "US Phone Number", "value": "usPhoneNumber" },
-              { "name": "UK Phone Number", "value": "ukPhoneNumber" },
               { "name": "Email", "value": "email" },
-              { "name": "Zip Code", "value": "zipCode" },
               { "name": "Custom", "value": "custom" }
             ]
           },
@@ -1762,33 +1759,18 @@
             "condition": {
               "or": [
                 { "===": [{ "var": "validationPatternType" }, "custom"] },
-                { "===": [{ "var": "validationPatternType" }, "international"] },
                 { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
-                { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"] },
-                { "===": [{ "var": "validationPatternType" }, "email"] },
-                { "===": [{ "var": "validationPatternType" }, "zipCode"] }
+                { "===": [{ "var": "validationPatternType" }, "email"] }
               ]
             },
-            "computedValue": {
+            "value": {
               "if": [
-                { "===": [{ "var": "validationPatternType" }, "international"] },
-                "^\\+(?:[0-9] ?){6,14}[0-9]$",
+                { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
+                "^\\(\\d{3}\\) \\d{3}-\\d{4}$",
                 { "if": [
-                  { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
-                  "^\\(\\d{3}\\) \\d{3}-\\d{4}$",
-                  { "if": [
-                    { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"] },
-                    "^\\+44\\s?7\\d{3}\\s?\\d{6}$",
-                    { "if": [
-                      { "===": [{ "var": "validationPatternType" }, "email"] },
-                      "^[\\w-.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
-                      { "if": [
-                        { "===": [{ "var": "validationPatternType" }, "zipCode"] },
-                        "^\\d{5}(-\\d{4})?$",
-                        ""
-                      ]}
-                    ]}
-                  ]}
+                  { "===": [{ "var": "validationPatternType" }, "email"] },
+                  "^[\\w-.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
+                  ""
                 ]}
               ]
             }
