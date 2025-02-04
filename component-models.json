@@ -3633,6 +3633,50 @@
             "valueType": "string",
             "label": "Maximum error message",
             "description": "Error message shown when the entered value is more than maximum."
+          },
+          {
+            "component": "select",
+            "name": "validationPatternType",
+            "label": "Type",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "Select",
+                "value": ""
+              },
+              {
+                "name": "International",
+                "value": "^[+][0-9]{0,14}$"
+              },
+              {
+                "name": "US Phone Number",
+                "value": "^[+]1[0-9]{0,10}$"
+              },
+              {
+                "name": "UK Phone Number",
+                "value": "^[+]44[0-9]{0,10}$"
+              },
+              {
+                "name": "Custom",
+                "value": "custom"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "pattern",
+            "label": "Pattern",
+            "valueType": "string",
+            "description": "Regular Expression is permitted.",
+            "value": false,
+            "condition": {
+              "!==": [
+                {
+                  "var": "validationPatternType"
+                },
+                ""
+              ]
+            }
           }
         ]
       }
