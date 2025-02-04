@@ -1769,18 +1769,27 @@
                 { "===": [{ "var": "validationPatternType" }, "zipCode"] }
               ]
             },
-            "value": {
-              "switch": [
-                { "var": "validationPatternType" },
-                {
-                  "international": "^\\+(?:[0-9] ?){6,14}[0-9]$",
-                  "usPhoneNumber": "^\\(\\d{3}\\) \\d{3}-\\d{4}$",
-                  "ukPhoneNumber": "^\\+44\\s?7\\d{3}\\s?\\d{6}$",
-                  "email": "^[\\w-.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
-                  "zipCode": "^\\d{5}(-\\d{4})?$",
-                  "custom": ""
-                },
-                ""
+            "computedValue": {
+              "if": [
+                { "===": [{ "var": "validationPatternType" }, "international"] },
+                "^\\+(?:[0-9] ?){6,14}[0-9]$",
+                { "if": [
+                  { "===": [{ "var": "validationPatternType" }, "usPhoneNumber"] },
+                  "^\\(\\d{3}\\) \\d{3}-\\d{4}$",
+                  { "if": [
+                    { "===": [{ "var": "validationPatternType" }, "ukPhoneNumber"] },
+                    "^\\+44\\s?7\\d{3}\\s?\\d{6}$",
+                    { "if": [
+                      { "===": [{ "var": "validationPatternType" }, "email"] },
+                      "^[\\w-.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
+                      { "if": [
+                        { "===": [{ "var": "validationPatternType" }, "zipCode"] },
+                        "^\\d{5}(-\\d{4})?$",
+                        ""
+                      ]}
+                    ]}
+                  ]}
+                ]}
               ]
             }
           },
