@@ -1764,7 +1764,24 @@
                 { "===": [{ "var": "validationPatternType" }, "^[+]1[0-9]{0,10}$"] },
                 { "===": [{ "var": "validationPatternType" }, "^[+]44[0-9]{0,10}$"] }
               ]
-            },"value": {"==" : [ { "var" : "validationPatternType" }, "custom" ] }
+            },"value": {
+            "if": [
+              { "==": [{ "var": "validationPatternType" }, "^[+][0-9]{0,14}$"] },
+              "^[+][0-9]{0,14}$",
+              {
+                "if": [
+                  { "==": [{ "var": "validationPatternType" }, "^[+]1[0-9]{0,10}$"] },
+                  "^[+]1[0-9]{0,10}$",
+                  {
+                    "if": [
+                      { "==": [{ "var": "validationPatternType" }, "^[+]44[0-9]{0,10}$"] },
+                      "^[+]44[0-9]{0,10}$"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
           },
           {
             "component": "text",
