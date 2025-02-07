@@ -930,6 +930,7 @@
             "label": "When Unchecked, return value",
             "name": "uncheckedValue",
             "valueType": "string",
+            "value": "off",
             "condition": { "===": [{"var" : "enableUncheckedValue"}, true] }
           },
           {
