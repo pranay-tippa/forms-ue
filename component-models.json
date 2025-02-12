@@ -1421,13 +1421,13 @@
             "validation": {
             "if": [
               {
-                "==": [
+                "===": [
                   { "var": "type" },
-                  "boolean"
+                  "number"
                 ]
               },
               {
-                "enum": [true, false],
+                "regExp": "^[0-9]+$",
                 "customErrorMsg": "Only true or false are allowed."
               },
               {}
