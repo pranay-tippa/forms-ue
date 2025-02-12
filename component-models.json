@@ -930,7 +930,6 @@
             "label": "When Unchecked, return value",
             "name": "uncheckedValue",
             "valueType": "string",
-            "value": "off",
             "condition": { "===": [{"var" : "enableUncheckedValue"}, true] }
           },
           {
@@ -1417,12 +1416,7 @@
             "label": "Options (Data Value)",
             "valueType": "string",
             "multi": true,
-            "required": true,
-            "valueFormat": "regexp",
-            "validation": {
-              "regExp": "^[0-9]+$",
-              "customErrorMsg": "Only true or false are allowed."
-            }
+            "required": true
           },
           {
             "component": "text",
@@ -1436,6 +1430,13 @@
             "name": "default",
             "label": "Default option",
             "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "default",
+            "label": "Default option",
+            "valueType": "string",
+            "multi": true
           },
           {
             "component": "select",
@@ -2780,6 +2781,12 @@
             "valueType": "boolean"
           },
           {
+            "component": "boolean",
+            "name": "wrapData",
+            "label": "Group child components' data on form submission",
+            "valueType": "boolean"
+          },
+          {
             "component": "text",
             "name": "dataRef",
             "label": "Bind reference",
@@ -2893,81 +2900,7 @@
             "name": "maxOccur",
             "label": "Maximum repetitions",
             "valueType": "number",
-            "description": "Maximum number of times the panel can appear on the form. No value indicates no limit.",
-            "condition": {
-              "!=": [
-                {
-                  "var": "variant"
-                },
-                "noButtons"
-              ]
-            }
-          },
-          {
-            "component": "select",
-            "name": "variant",
-            "label": "Variant",
-            "options": [
-              {
-                "name": "No Actions",
-                "value": "noButtons"
-              },
-              {
-                "name": "Add & Remove Buttons",
-                "value": "addRemoveButtons"
-              }
-            ],
-            "value": "addRemoveButtons",
-            "condition": {
-              "===": [
-                {
-                  "var": "repeatable"
-                },
-                true
-              ]
-            }
-          },
-          {
-            "component": "text",
-            "name": "repeatAddButtonLabel",
-            "label": "Add Button Label",
-            "valueType": "string",
-            "value": "Add",
-            "condition": {
-              "and": [
-                {
-                  "===": [
-                    {
-                      "var": "variant"
-                    },
-                    "addRemoveButtons"
-                  ]
-                },
-                {
-                  "===": [
-                    {
-                      "var": "repeatable"
-                    },
-                    true
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "component": "text",
-            "name": "repeatDeleteButtonLabel",
-            "label": "Delete Button Label",
-            "valueType": "string",
-            "value": "Delete",
-            "condition": {
-              "===": [
-                {
-                  "var": "variant"
-                },
-                "addRemoveButtons"
-              ]
-            }
+            "description": "Maximum number of times the panel can appear on the form"
           }
         ]
       },
