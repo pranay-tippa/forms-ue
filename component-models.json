@@ -1419,10 +1419,21 @@
             "multi": true,
             "required": true,
             "validation": {
-              "enum": [true, false],
-              "customErrorMsg": "Only true or false are allowed."
-            }
-          },
+            "if": [
+              {
+                "==": [
+                  { "var": "type" },
+                  "boolean"
+                ]
+              },
+              {
+                "enum": [true, false],
+                "customErrorMsg": "Only true or false are allowed."
+              },
+              {}
+            ]
+          }
+        },
           {
             "component": "text",
             "name": "enumNames",
