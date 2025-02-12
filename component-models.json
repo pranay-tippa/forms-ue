@@ -1424,7 +1424,58 @@
             "name": "enumNames",
             "label": "Options (Display Value)",
             "valueType": "string",
-            "multi": true
+            "multi": true,
+            "condition": {
+              "or": [
+                {
+                  "==": [
+                    { "var": "type" },
+                    "string"
+                  ]
+                },
+                {
+                  "==": [
+                    { "var": "type" },
+                    "number"
+                  ]
+                },
+                {
+                  "==": [
+                    { "var": "type" },
+                    "boolean"
+                  ]
+                }
+              ]
+            },
+            "validation": {
+              "if": [
+                {
+                  "==": [
+                    { "var": "type" },
+                    "number"
+                  ]
+                },
+                {
+                  "regExp": "^[0-9]+$",
+                  "customErrorMsg": "Only numbers are allowed."
+                },
+                {
+                  "if": [
+                    {
+                      "==": [
+                        { "var": "type" },
+                        "boolean"
+                      ]
+                    },
+                    {
+                      "enum": ["true", "false"],
+                      "customErrorMsg": "Only true or false are allowed."
+                    },
+                    {}
+                  ]
+                }
+              ]
+            }
           },
           {
             "component": "text",
