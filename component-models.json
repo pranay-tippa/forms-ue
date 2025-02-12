@@ -4128,6 +4128,12 @@
             "value": "12"
           }
         ]
+      },
+      {
+        "component": "text",
+        "name": "placeholder",
+        "label": "Placeholder text",
+        "valueType": "string"
       }
     ]
   },
