@@ -1417,14 +1417,7 @@
             "label": "Options (Data Value)",
             "valueType": "string",
             "multi": true,
-            "required": true
-          },
-          {
-            "component": "text",
-            "name": "enumNames",
-            "label": "Options (Display Value)",
-            "valueType": "string",
-            "multi": true,
+            "required": true,
             "condition": {
               "or": [
                 {
@@ -1476,6 +1469,13 @@
                 }
               ]
             }
+          },
+          {
+            "component": "text",
+            "name": "enumNames",
+            "label": "Options (Display Value)",
+            "valueType": "string",
+            "multi": true
           },
           {
             "component": "text",
