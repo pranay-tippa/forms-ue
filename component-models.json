@@ -2909,33 +2909,21 @@
             "valueType": "number",
             "description": "Maximum number of times the panel can appear on the form. No value indicates no limit.",
             "condition": {
-              "or": [
-                {
-                  "and": [
-                    {
-                      "===": [
-                        {
-                          "var": "repeatable"
-                        },
-                        true
-                      ]
-                    },
-                    {
-                      "!==": [
-                        {
-                          "var": "variant"
-                        },
-                        "noButtons"
-                      ]
-                    }
-                  ]
-                },
+              "and": [
                 {
                   "===": [
                     {
                       "var": "repeatable"
                     },
                     true
+                  ]
+                },
+                {
+                  "!==": [
+                    {
+                      "var": "variant"
+                    },
+                    "noButtons"
                   ]
                 }
               ]
