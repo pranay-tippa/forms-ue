@@ -2780,6 +2780,12 @@
             "valueType": "boolean"
           },
           {
+            "component": "boolean",
+            "name": "wrapData",
+            "label": "Group child components' data on form submission",
+            "valueType": "boolean"
+          },
+          {
             "component": "text",
             "name": "dataRef",
             "label": "Bind reference",
@@ -2886,7 +2892,15 @@
             "name": "minOccur",
             "label": "Minimum repetitions",
             "valueType": "number",
-            "description": "Minimum number of times the panel appears on the form"
+            "description": "Minimum number of times the panel appears on the form",
+            "condition": {
+              "===": [
+                {
+                  "var": "repeatable"
+                },
+                true
+              ]
+            }
           },
           {
             "component": "number",
@@ -2895,11 +2909,23 @@
             "valueType": "number",
             "description": "Maximum number of times the panel can appear on the form. No value indicates no limit.",
             "condition": {
-              "!=": [
+              "and": [
                 {
-                  "var": "variant"
+                  "===": [
+                    {
+                      "var": "variant"
+                    },
+                    "noButtons"
+                  ]
                 },
-                "noButtons"
+                {
+                  "===": [
+                    {
+                      "var": "repeatable"
+                    },
+                    true
+                  ]
+                }
               ]
             }
           },
@@ -2934,23 +2960,11 @@
             "valueType": "string",
             "value": "Add",
             "condition": {
-              "and": [
+              "===": [
                 {
-                  "===": [
-                    {
-                      "var": "variant"
-                    },
-                    "addRemoveButtons"
-                  ]
+                  "var": "variant"
                 },
-                {
-                  "===": [
-                    {
-                      "var": "repeatable"
-                    },
-                    true
-                  ]
-                }
+                "addRemoveButtons"
               ]
             }
           },
@@ -2961,23 +2975,11 @@
             "valueType": "string",
             "value": "Delete",
             "condition": {
-              "and": [
+              "===": [
                 {
-                  "===": [
-                    {
-                      "var": "variant"
-                    },
-                    "addRemoveButtons"
-                  ]
+                  "var": "variant"
                 },
-                {
-                  "===": [
-                    {
-                      "var": "repeatable"
-                    },
-                    true
-                  ]
-                }
+                "addRemoveButtons"
               ]
             }
           }
