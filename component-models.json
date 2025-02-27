@@ -806,13 +806,6 @@
           },
           {
             "component": "text",
-            "name": "checkedValue",
-            "label": "When Checked, return value",
-            "valueType": "string",
-            "value": "On"
-          },
-          {
-            "component": "text",
             "name": "dataRef",
             "label": "Bind reference",
             "valueType": "string"
@@ -923,7 +916,45 @@
             "component": "text",
             "name": "checkedValue",
             "label": "When Checked, return value",
-            "valueType": "string"
+            "valueType": {
+              "if": [
+                {"===": [{"var": "type"}, "number"]},
+                "number",
+                "string"
+              ]
+            },
+            "value": {
+              "if": [
+                {"===": [{"var": "type"}, "number"]},
+                1,
+                "On"
+              ]
+            },
+            "valueFormat": "regexp",
+            "validation": {
+              "regExp": {
+                "if": [
+                  {"===": [{"var": "type"}, "number"]},
+                  "^[0-9]+$",
+                  {"if": [
+                    {"===": [{"var": "type"}, "string"]},
+                    "^[A-Za-z]+$",
+                    ".*"
+                  ]}
+                ]
+              },
+              "customErrorMsg": {
+                "if": [
+                  {"===": [{"var": "type"}, "number"]},
+                  "Only numbers are allowed when type is Number",
+                  {"if": [
+                    {"===": [{"var": "type"}, "string"]},
+                    "Only letters are allowed when type is String",
+                    ""
+                  ]}
+                ]
+              }
+            }
           },
           {
             "component": "boolean",
