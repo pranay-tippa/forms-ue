@@ -2007,13 +2007,6 @@
             "description": "Displayed when validation script fails."
           },
           {
-            "component": "text",
-            "name": "validateExpMessage",
-            "label": "Script validation message",
-            "valueType": "string",
-            "description": "Displayed when validation script fails."
-          },
-          {
             "component": "number",
             "name": "maxFileSize",
             "label": "Maximum file size (MB)",
