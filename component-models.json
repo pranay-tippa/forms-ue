@@ -914,46 +914,15 @@
           },
           {
             "component": "text",
-            "name": "checkedValue",
-            "label": "When Checked, return value",
-            "valueType": {
-              "if": [
-                {"===": [{"var": "type"}, "number"]},
-                "number",
-                "string"
-              ]
-            },
-            "value": {
-              "if": [
-                {"===": [{"var": "type"}, "number"]},
-                1,
-                "On"
-              ]
-            },
-            "valueFormat": "regexp",
+            "name": "enum",
+            "label": "When Unchecked, return value",
+            "valueType": "string",
+            "multi": true,
+            "required": true,
             "validation": {
-              "regExp": {
-                "if": [
-                  {"===": [{"var": "type"}, "number"]},
-                  "^[0-9]+$",
-                  {"if": [
-                    {"===": [{"var": "type"}, "string"]},
-                    "^[A-Za-z]+$",
-                    ".*"
-                  ]}
-                ]
-              },
-              "customErrorMsg": {
-                "if": [
-                  {"===": [{"var": "type"}, "number"]},
-                  "Only numbers are allowed when type is Number",
-                  {"if": [
-                    {"===": [{"var": "type"}, "string"]},
-                    "Only letters are allowed when type is String",
-                    ""
-                  ]}
-                ]
-              }
+              "min": 2,
+              "max": 2,
+              "customErrorMsg": "Why don't you make like a tree and get outta here?"
             }
           },
           {
@@ -961,13 +930,6 @@
             "name": "enableUncheckedValue",
             "label": "Preserve Uncheck state value.",
             "valueType": "boolean"
-          },
-          {
-            "component": "text-input",
-            "label": "When Unchecked, return value",
-            "name": "uncheckedValue",
-            "valueType": "string",
-            "condition": { "===": [{"var" : "enableUncheckedValue"}, true] }
           },
           {
             "component": "text",
