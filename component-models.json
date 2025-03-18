@@ -1118,10 +1118,10 @@
             "valueType": "string"
           },
           {
-            "component": "text",
+            "component": "date-time",
             "name": "default",
             "label": "Default Value",
-            "valueType": "string"
+            "valueType": "date"
           }
         ]
       },
@@ -2573,10 +2573,10 @@
             "valueType": "string"
           },
           {
-            "component": "text",
+            "component": "number",
             "name": "default",
             "label": "Default Value",
-            "valueType": "string"
+            "valueType": "number"
           },
           {
             "component": "select",
@@ -3671,10 +3671,10 @@
             "valueType": "string"
           },
           {
-            "component": "text",
+            "component": "number",
             "name": "default",
             "label": "Default Value",
-            "valueType": "string"
+            "valueType": "number"
           }
         ]
       },
