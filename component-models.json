@@ -3865,7 +3865,7 @@
                 {
                   "var": "required"
                 },
-                true
+                false
               ]
             }
           },
