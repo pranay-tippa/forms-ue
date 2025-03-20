@@ -2885,7 +2885,6 @@
             "label": "Minimum repetitions",
             "valueType": "number",
             "description": "Minimum number of times the panel appears on the form",
-            "value": 1,
             "condition": {
               "===": [
                 {
