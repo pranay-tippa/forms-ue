@@ -3936,13 +3936,15 @@
             "name": "placeholder",
             "label": "Placeholder text",
             "valueType": "string",
-            "value": "Default Title"
+            "value": "Default Title",
+            "multiLine": true
           },
           {
             "component": "text",
             "name": "default",
             "label": "Default Value",
-            "valueType": "string"
+            "valueType": "string",
+            "maxLength": 100
           },
           {
             "component": "boolean",
