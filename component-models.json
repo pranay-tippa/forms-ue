@@ -2764,7 +2764,6 @@
             "name": "jcr:title",
             "label": "Title",
             "valueType": "string",
-            "rows": 5
           },
           {
             "component": "boolean",
@@ -3140,7 +3139,8 @@
             "component": "text",
             "name": "default",
             "label": "Default option",
-            "valueType": "string"
+            "valueType": "string",
+            "rows": 5
           },
           {
             "component": "select",
