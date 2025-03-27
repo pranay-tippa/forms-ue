@@ -2763,7 +2763,7 @@
             "component": "text",
             "name": "jcr:title",
             "label": "Title",
-            "valueType": "string",
+            "valueType": "string"
           },
           {
             "component": "boolean",
