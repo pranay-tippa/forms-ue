@@ -487,6 +487,56 @@
             "valueType": "string"
           }
         ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "description",
+                "value": "description"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              },
+              {
+                "name": "name",
+                "value": "Name"
+              },
+              {
+                "name": "none",
+                "value": "Nome"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "customText",
+            "label": "Custom Text",
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "assistPriority"
+                },
+                "Custom Text"
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -736,36 +786,16 @@
                 "value": "Custom Text"
               },
               {
-                "name": "description",
-                "value": "description"
-              },
-              {
                 "name": "label",
                 "value": "Title"
-              },
-              {
-                "name": "name",
-                "value": "Name"
-              },
-              {
-                "name": "none",
-                "value": "Nome"
               }
             ]
           },
           {
             "component": "text",
-            "name": "customText",
+            "name": "enum",
             "label": "Custom Text",
-            "valueType": "string",
-            "condition": {
-              "==": [
-                {
-                  "var": "assistPriority"
-                },
-                "Custom Text"
-              ]
-            }
+            "valueType": "string"
           }
         ]
       }
@@ -984,6 +1014,36 @@
             "label": "Script validation message",
             "valueType": "string",
             "description": "Displayed when validation script fails."
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "enum",
+            "label": "Custom Text",
+            "valueType": "string"
           }
         ]
       }
@@ -1213,6 +1273,56 @@
             "name": "excludeMaximum",
             "label": "Exclude maximum value",
             "valueType": "boolean"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "description",
+                "value": "description"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              },
+              {
+                "name": "name",
+                "value": "Name"
+              },
+              {
+                "name": "none",
+                "value": "Nome"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "customText",
+            "label": "Custom Text",
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "assistPriority"
+                },
+                "Custom Text"
+              ]
+            }
           }
         ]
       },
@@ -1511,6 +1621,56 @@
             "description": "Displayed when validation script fails."
           }
         ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "description",
+                "value": "description"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              },
+              {
+                "name": "name",
+                "value": "Name"
+              },
+              {
+                "name": "none",
+                "value": "Nome"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "customText",
+            "label": "Custom Text",
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "assistPriority"
+                },
+                "Custom Text"
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -1796,6 +1956,56 @@
             "description": "Error message shown when the pattern is not matched."
           }
         ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "description",
+                "value": "description"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              },
+              {
+                "name": "name",
+                "value": "Name"
+              },
+              {
+                "name": "none",
+                "value": "Nome"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "customText",
+            "label": "Custom Text",
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "assistPriority"
+                },
+                "Custom Text"
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -1992,6 +2202,56 @@
             "name": "acceptMessage",
             "label": "File type error message",
             "valueType": "string"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "description",
+                "value": "description"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              },
+              {
+                "name": "name",
+                "value": "Name"
+              },
+              {
+                "name": "none",
+                "value": "Nome"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "customText",
+            "label": "Custom Text",
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "assistPriority"
+                },
+                "Custom Text"
+              ]
+            }
           }
         ]
       }
@@ -2996,6 +3256,63 @@
             "valueType": "string"
           }
         ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "description",
+                "value": "description"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              },
+              {
+                "name": "name",
+                "value": "Name"
+              },
+              {
+                "name": "none",
+                "value": "Nome"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "customText",
+            "label": "Custom Text",
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "assistPriority"
+                },
+                "Custom Text"
+              ]
+            }
+          },
+          {
+            "component": "text",
+            "name": "roleAttribute",
+            "label": "HTML role for screen reader to announce",
+            "valueType": "string",
+            "description": "HTML role attribute to apply to the component."
+          }
+        ]
       }
     ]
   },
@@ -3230,6 +3547,36 @@
             "label": "Script validation message",
             "valueType": "string",
             "description": "Displayed when validation script fails."
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "enum",
+            "label": "Custom Text",
+            "valueType": "string"
           }
         ]
       }
@@ -3540,6 +3887,56 @@
             "valueType": "string"
           }
         ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "description",
+                "value": "description"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              },
+              {
+                "name": "name",
+                "value": "Name"
+              },
+              {
+                "name": "none",
+                "value": "Nome"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "customText",
+            "label": "Custom Text",
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "assistPriority"
+                },
+                "Custom Text"
+              ]
+            }
+          }
+        ]
       }
     ]
   },
@@ -3787,6 +4184,56 @@
             "valueType": "string",
             "description": "Regular Expression is permitted.",
             "condition": { "===": [{"var" : "validationPatternType"}, true] }
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "description",
+                "value": "description"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              },
+              {
+                "name": "name",
+                "value": "Name"
+              },
+              {
+                "name": "none",
+                "value": "Nome"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "customText",
+            "label": "Custom Text",
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "assistPriority"
+                },
+                "Custom Text"
+              ]
+            }
           }
         ]
       }
@@ -4903,6 +5350,55 @@
             "name": "tooltip",
             "label": "Short description",
             "valueType": "string"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "name": "accessibility",
+        "label": "Accessibility",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "select",
+            "name": "assistPriority",
+            "label": "Text for screen readers",
+            "valueType": "string",
+            "options": [
+              {
+                "name": "custom",
+                "value": "Custom Text"
+              },
+              {
+                "name": "description",
+                "value": "description"
+              },
+              {
+                "name": "label",
+                "value": "Title"
+              },
+              {
+                "name": "name",
+                "value": "Name"
+              },
+              {
+                "name": "none",
+                "value": "Nome"
+              }
+            ]
+          },
+          {
+            "component": "text",
+            "name": "customText",
+            "label": "Custom Text",
+            "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "roleAttribute",
+            "label": "HTML role for screen reader to announce",
+            "valueType": "string",
+            "description": "HTML role attribute to apply to the component."
           }
         ]
       }
