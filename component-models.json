@@ -501,24 +501,24 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "description",
+                "name": "Description",
                 "value": "description"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               },
               {
-                "name": "name",
-                "value": "Name"
+                "name": "Name",
+                "value": "name"
               },
               {
-                "name": "none",
-                "value": "Nome"
+                "name": "None",
+                "value": "none"
               }
             ]
           },
@@ -782,12 +782,12 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               }
             ]
           },
@@ -1030,12 +1030,12 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               }
             ]
           },
@@ -1289,24 +1289,24 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "description",
+                "name": "Description",
                 "value": "description"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               },
               {
-                "name": "name",
-                "value": "Name"
+                "name": "Name",
+                "value": "name"
               },
               {
-                "name": "none",
-                "value": "Nome"
+                "name": "None",
+                "value": "none"
               }
             ]
           },
@@ -1635,24 +1635,24 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "description",
+                "name": "Description",
                 "value": "description"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               },
               {
-                "name": "name",
-                "value": "Name"
+                "name": "Name",
+                "value": "name"
               },
               {
-                "name": "none",
-                "value": "Nome"
+                "name": "None",
+                "value": "none"
               }
             ]
           },
@@ -1970,24 +1970,24 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "description",
+                "name": "Description",
                 "value": "description"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               },
               {
-                "name": "name",
-                "value": "Name"
+                "name": "Name",
+                "value": "name"
               },
               {
-                "name": "none",
-                "value": "Nome"
+                "name": "None",
+                "value": "none"
               }
             ]
           },
@@ -2218,24 +2218,24 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "description",
+                "name": "Description",
                 "value": "description"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               },
               {
-                "name": "name",
-                "value": "Name"
+                "name": "Name",
+                "value": "name"
               },
               {
-                "name": "none",
-                "value": "Nome"
+                "name": "None",
+                "value": "none"
               }
             ]
           },
@@ -3270,24 +3270,24 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "description",
+                "name": "Description",
                 "value": "description"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               },
               {
-                "name": "name",
-                "value": "Name"
+                "name": "Name",
+                "value": "name"
               },
               {
-                "name": "none",
-                "value": "Nome"
+                "name": "None",
+                "value": "none"
               }
             ]
           },
@@ -3563,12 +3563,12 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               }
             ]
           },
@@ -3901,24 +3901,24 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "description",
+                "name": "Description",
                 "value": "description"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               },
               {
-                "name": "name",
-                "value": "Name"
+                "name": "Name",
+                "value": "name"
               },
               {
-                "name": "none",
-                "value": "Nome"
+                "name": "None",
+                "value": "none"
               }
             ]
           },
@@ -4200,24 +4200,24 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "description",
+                "name": "Description",
                 "value": "description"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               },
               {
-                "name": "name",
-                "value": "Name"
+                "name": "Name",
+                "value": "name"
               },
               {
-                "name": "none",
-                "value": "Nome"
+                "name": "None",
+                "value": "none"
               }
             ]
           },
@@ -4541,24 +4541,24 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "description",
+                "name": "Description",
                 "value": "description"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               },
               {
-                "name": "name",
-                "value": "Name"
+                "name": "Name",
+                "value": "name"
               },
               {
-                "name": "none",
-                "value": "Nome"
+                "name": "None",
+                "value": "none"
               }
             ]
           },
@@ -5366,24 +5366,24 @@
             "valueType": "string",
             "options": [
               {
-                "name": "custom",
-                "value": "Custom Text"
+                "name": "Custom Text",
+                "value": "custom"
               },
               {
-                "name": "description",
+                "name": "Description",
                 "value": "description"
               },
               {
-                "name": "label",
-                "value": "Title"
+                "name": "Title",
+                "value": "label"
               },
               {
-                "name": "name",
-                "value": "Name"
+                "name": "Name",
+                "value": "name"
               },
               {
-                "name": "none",
-                "value": "Nome"
+                "name": "None",
+                "value": "none"
               }
             ]
           },
