@@ -532,7 +532,7 @@
                 {
                   "var": "assistPriority"
                 },
-                "Custom Text"
+                "custom"
               ]
             }
           }
@@ -1320,7 +1320,7 @@
                 {
                   "var": "assistPriority"
                 },
-                "Custom Text"
+                "custom"
               ]
             }
           }
@@ -1666,7 +1666,7 @@
                 {
                   "var": "assistPriority"
                 },
-                "Custom Text"
+                "custom"
               ]
             }
           }
@@ -2001,7 +2001,7 @@
                 {
                   "var": "assistPriority"
                 },
-                "Custom Text"
+                "custom"
               ]
             }
           }
@@ -2249,7 +2249,7 @@
                 {
                   "var": "assistPriority"
                 },
-                "Custom Text"
+                "custom"
               ]
             }
           }
@@ -3301,7 +3301,7 @@
                 {
                   "var": "assistPriority"
                 },
-                "Custom Text"
+                "custom"
               ]
             }
           },
@@ -3932,7 +3932,7 @@
                 {
                   "var": "assistPriority"
                 },
-                "Custom Text"
+                "custom"
               ]
             }
           }
@@ -4231,7 +4231,7 @@
                 {
                   "var": "assistPriority"
                 },
-                "Custom Text"
+                "custom"
               ]
             }
           }
@@ -4572,7 +4572,7 @@
                 {
                   "var": "assistPriority"
                 },
-                "Custom Text"
+                "custom"
               ]
             }
           }
