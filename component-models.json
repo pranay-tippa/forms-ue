@@ -795,9 +795,7 @@
             "component": "text",
             "name": "enum",
             "label": "Custom Text",
-            "valueType": "string",
-            "multi": true,
-            "required": true
+            "valueType": "string"
           },
           {
             "component": "text",
