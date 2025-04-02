@@ -261,6 +261,8 @@
                     "Item 1",
                     "Item 2"
                   ],
+                  "enumNull": [
+                  ],
                   "visible": true,
                   "enabled": true
                 }
