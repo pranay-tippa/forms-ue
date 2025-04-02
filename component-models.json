@@ -793,9 +793,10 @@
           },
           {
             "component": "text",
-            "name": "enum",
+            "name": "enumNull",
             "label": "Custom Text",
-            "valueType": "string"
+            "valueType": "string",
+            "multi": true
           }
         ]
       }
