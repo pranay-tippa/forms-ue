@@ -450,7 +450,7 @@
                     "Item 1",
                     "Item 2"
                   ],
-                  "enumNull": [
+                  "custom": [
                   ],
                   "enabled": true,
                   "visible": true

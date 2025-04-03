@@ -793,7 +793,7 @@
           },
           {
             "component": "text",
-            "name": "enumNull",
+            "name": "custom",
             "label": "Custom Text",
             "valueType": "string",
             "multi": true
@@ -3575,7 +3575,7 @@
           },
           {
             "component": "text",
-            "name": "enum",
+            "name": "custom",
             "label": "Custom Text",
             "valueType": "string"
           }
