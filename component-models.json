@@ -524,7 +524,7 @@
           },
           {
             "component": "text",
-            "name": "customText",
+            "name": "custom",
             "label": "Custom Text",
             "valueType": "string",
             "condition": {
