@@ -3577,7 +3577,8 @@
             "component": "text",
             "name": "custom",
             "label": "Custom Text",
-            "valueType": "string"
+            "valueType": "string",
+            "multi": true
           }
         ]
       }
